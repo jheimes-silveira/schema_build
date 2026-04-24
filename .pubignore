@@ -1,4 +1,5 @@
 # Local development files
+.ia/
 /prommpts/
 /actions_trello.txt
 /actions_trello_full.txt
