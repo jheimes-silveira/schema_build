@@ -1,0 +1,1692 @@
+{"data": {"details": [{"closed": false, "creationMethod": null, 
+"creationMethodError": null, "creationMethodLoadingStartedAt": null, 
+"dateClosed": null, "dateLastActivity": "2021-02-14T15:41:57.775Z", 
+"dateLastView": "2020-11-12T01:16:56.218Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"5f9ac83381c71a8048a28e74", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"5f68a5cdfdcdd47cf2f9098f", "idTags": [], "ixUpdate": "129", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5f9ac83381c71a8048a28e75", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "App delivery service", 
+"nodeId": 
+"ari☁trello::board/workspace/5f68a5cdfdcdd47cf2f9098f/5f9ac83381c71a8048a28e74",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5f99bb969ce0c881ad90a502", "backgroundBottomColor": "#2c241d", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/65422050e
+55d18941255fbdb45682dc1/photo-1603795013477-8486f9615557", 
+"backgroundImageScaled": [{"height": 100, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/56x100/c5169fecf68
+4ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 56}, 
+{"height": 192, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/108x192/c5169fecf6
+84ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 108}, 
+{"height": 480, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/270x480/c5169fecf6
+84ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 270}, 
+{"height": 960, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/540x960/c5169fecf6
+84ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 540}, 
+{"height": 1024, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/576x1024/c5169fecf
+684ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 576}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/720x1280/c5169fecf
+684ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 720}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/900x1600/c5169fecf
+684ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 900}, 
+{"height": 1920, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1080x1920/c5169fec
+f684ec758c8bdd4d5141a12b/photo-1603795013477-8486f9615557.jpg", "width": 1080}, 
+{"height": 2048, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/65422050e
+55d18941255fbdb45682dc1/photo-1603795013477-8486f9615557", "width": 1152}], 
+"backgroundTile": false, "backgroundTopColor": "#1d1d19", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1603795013477-8486f9615557?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "N2oIPjZ0", "shortUrl": "https://trello.com/b/N2oIPjZ0", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/N2oIPjZ0/app-delivery-service"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2021-09-03T22:47:35.534Z", "dateLastView": "2021-09-03T22:47:36.691Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "5e13a73e1b57cf2d894c9057", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "567", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "Backand", 
+"blue_dark": "", "blue_light": "", "green": "", "green_dark": "", "green_light":
+"", "lime": "", "lime_dark": "", "lime_light": "", "orange": "Mobile", 
+"orange_dark": "", "orange_light": "", "pink": "", "pink_dark": "", 
+"pink_light": "", "purple": "Melhoria", "purple_dark": "", "purple_light": "", 
+"red": "Bug", "red_dark": "", "red_light": "", "sky": "", "sky_dark": "", 
+"sky_light": "", "yellow": "", "yellow_dark": "", "yellow_light": ""}, "limits":
+{"attachments": {"perBoard": {"disableAt": 36000, "status": "ok", "warnAt": 
+28800}, "perCard": {"disableAt": 1000, "status": "ok", "warnAt": 800}}, 
+"boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, "status": "ok", 
+"warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, "status": "ok", 
+"warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, "status": "ok", 
+"warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": "ok", "warnAt": 
+4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", "warnAt": 
+1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", "warnAt": 
+800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": "ok", 
+"warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, "status": 
+"ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": "ok", 
+"warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, "status": 
+"ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, "status": 
+"ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, "status": "ok", 
+"warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": "ok", "warnAt": 
+2400}}, "reactions": {"perAction": {"disableAt": 900, "status": "ok", "warnAt": 
+720}, "uniquePerAction": {"disableAt": 17, "status": "ok", "warnAt": 14}}, 
+"stickers": {"perCard": {"disableAt": 70, "status": "ok", "warnAt": 56}}}, 
+"memberships": [{"deactivated": false, "id": "5e13a73e1b57cf2d894c9058", 
+"idMember": "5baacfa7ab5f2c4dbe460834", "memberType": "admin", "unconfirmed": 
+false}, {"deactivated": false, "id": "60ad9b90022ec67991fcfdd6", "idMember": 
+"5fd95d32d4842e353b47f578", "memberType": "normal", "unconfirmed": false}], 
+"name": "APP MAP", "nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/5e13a73e1b57cf2d894c9057",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5e13719987c9a2876769d4c3", "backgroundBottomColor": "#464148", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/d776a7065
+44be067ead145e3a1d9aa13/photo-1578241561880-0a1d5db3cb8a", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/3ef2dd8acbc
+fb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/3ef2dd8acb
+cfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/3ef2dd8acb
+cfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 480}, 
+{"height": 640, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x640/3ef2dd8acb
+cfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 960}, 
+{"height": 683, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/3ef2dd8ac
+bcfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 1024}, 
+{"height": 854, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/3ef2dd8ac
+bcfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 1280}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1280/3ef2dd8a
+cbcfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 1920}, 
+{"height": 1366, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/3ef2dd8a
+cbcfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/3ef2dd8a
+cbcfb956284a524e7126fc3d/photo-1578241561880-0a1d5db3cb8a.jpg", "width": 2400}, 
+{"height": 1707, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/d776a7065
+44be067ead145e3a1d9aa13/photo-1578241561880-0a1d5db3cb8a", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#9ba2a1", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "private", "selfJoin": false, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1578241561880-0a1d5db3cb8a?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "OPSx74r6", "shortUrl": "https://trello.com/b/OPSx74r6", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/OPSx74r6/app-map"}, {"closed": false, "creationMethod": 
+null, "creationMethodError": null, "creationMethodLoadingStartedAt": null, 
+"dateClosed": null, "dateLastActivity": null, "dateLastView": 
+"2021-07-26T13:18:25.207Z", "datePluginDisable": null, "desc": "Business Model 
+Canvas is a strategic management and lean startup template for developing new or
+documenting existing business models. It is a visual chart with elements 
+describing a firm's or product's value proposition, infrastructure, customers, 
+and finances. Add cards under each list as you define your criteria.\n\nFor more
+information about Business Model Canvas, see 
+https://diytoolkit.org/tools/business-model-canvas/", "descData": null, 
+"enterpriseOwned": false, "id": "5e9139139a4ca83ec1a250db", "idBoardSource": 
+"5e86b3a96db618317fdda2f1", "idEnterprise": null, "idMemberCreator": null, 
+"idOrganization": "60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "4", 
+"labelNames": {"black": "", "black_dark": "", "black_light": "", "blue": 
+"Events", "blue_dark": "", "blue_light": "", "green": "Employers", "green_dark":
+"", "green_light": "", "lime": "Marketing", "lime_dark": "", "lime_light": "", 
+"orange": "Companies", "orange_dark": "", "orange_light": "", "pink": "", 
+"pink_dark": "", "pink_light": "", "purple": "Event Planners", "purple_dark": 
+"", "purple_light": "", "red": "Video", "red_dark": "", "red_light": "", "sky": 
+"Social Media Post", "sky_dark": "", "sky_light": "", "yellow": "", 
+"yellow_dark": "", "yellow_light": ""}, "limits": {"attachments": {"perBoard": 
+{"disableAt": 36000, "status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 
+1000, "status": "ok", "warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard":
+{"disableAt": 4000, "status": "ok", "warnAt": 3200}, "totalMembersPerBoard": 
+{"disableAt": 1600, "status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": 
+{"disableAt": 5000, "status": "ok", "warnAt": 4000}, "openPerList": 
+{"disableAt": 5000, "status": "ok", "warnAt": 4000}, "totalPerBoard": 
+{"disableAt": 2000000, "status": "ok", "warnAt": 1600000}, "totalPerList": 
+{"disableAt": 1000000, "status": "ok", "warnAt": 800000}}, "checkItems": 
+{"perChecklist": {"disableAt": 200, "status": "ok", "warnAt": 160}}, 
+"checklists": {"perBoard": {"disableAt": 1800000, "status": "ok", "warnAt": 
+1440000}, "perCard": {"disableAt": 500, "status": "ok", "warnAt": 400}}, 
+"customFieldOptions": {"perField": {"disableAt": 50, "status": "ok", "warnAt": 
+40}}, "customFields": {"perBoard": {"disableAt": 50, "status": "ok", "warnAt": 
+40}}, "labels": {"perBoard": {"disableAt": 1000, "status": "ok", "warnAt": 
+800}}, "lists": {"openPerBoard": {"disableAt": 500, "status": "ok", "warnAt": 
+400}, "totalPerBoard": {"disableAt": 3000, "status": "ok", "warnAt": 2400}}, 
+"reactions": {"perAction": {"disableAt": 900, "status": "ok", "warnAt": 720}, 
+"uniquePerAction": {"disableAt": 17, "status": "ok", "warnAt": 14}}, "stickers":
+{"perCard": {"disableAt": 70, "status": "ok", "warnAt": 56}}}, "memberships": 
+[{"deactivated": false, "id": "5e9139149a4ca83ec1a2513d", "idMember": 
+"5baacfa7ab5f2c4dbe460834", "memberType": "admin", "unconfirmed": false}], 
+"name": "Business Model Canvas", "nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/5e9139139a4ca83ec1a250db",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5c0ef5389dd268692a323274", "backgroundBottomColor": "#68777b", 
+"backgroundBrightness": "light", "backgroundColor": null, "backgroundDarkColor":
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1365x2048/115f6719
+bdae190af59306b2c536dd64/photo-1544357513-401463078b59", 
+"backgroundImageScaled": [{"height": 100, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/67x100/0b921b1dbc7
+9d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 67}, 
+{"height": 192, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/128x192/0b921b1dbc
+79d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 128}, 
+{"height": 480, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/320x480/0b921b1dbc
+79d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 320}, 
+{"height": 960, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/640x960/0b921b1dbc
+79d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 640}, 
+{"height": 1024, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/683x1024/0b921b1db
+c79d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 683}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/853x1280/0b921b1db
+c79d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 853}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1066x1600/0b921b1d
+bc79d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 1066}, 
+{"height": 1920, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x1920/0b921b1d
+bc79d63fe6d71a67517808d1/photo-1544357513-401463078b59.jpg", "width": 1280}, 
+{"height": 2048, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1365x2048/115f6719
+bdae190af59306b2c536dd64/photo-1544357513-401463078b59", "width": 1365}], 
+"backgroundTile": false, "backgroundTopColor": "#b8afa1", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "private", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1544357513-401463078b59?ixlib=rb-1.2.1&ixid=e
+yJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "zf50EAGG", "shortUrl": "https://trello.com/b/zf50EAGG", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/zf50EAGG/business-model-canvas"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+null, "dateLastView": "2020-10-04T00:05:43.018Z", "datePluginDisable": null, 
+"desc": "", "descData": null, "enterpriseOwned": false, "id": 
+"5f79063ae2014a6291c8f02a", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"5f68a5cdfdcdd47cf2f9098f", "idTags": [], "ixUpdate": "14", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5f79063ae2014a6291c8f02b", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "Delevery de 
+servi\u00e7os", "nodeId": 
+"ari☁trello::board/workspace/5f68a5cdfdcdd47cf2f9098f/5f79063ae2014a6291c8f02a",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5ea964025f76fe2a5a11bc9a", "backgroundBottomColor": "#d3d3d1", 
+"backgroundBrightness": "light", "backgroundColor": null, "backgroundDarkColor":
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/966f46de8
+00cd0eaf4e20b0084af24c5/photo-1587321174565-73cffc72e10a", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/9442035e638
+8064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/9442035e63
+88064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/9442035e63
+88064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 480}, 
+{"height": 641, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x641/9442035e63
+88064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 960}, 
+{"height": 684, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x684/9442035e6
+388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 1024}, 
+{"height": 855, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x855/9442035e6
+388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 1280}, 
+{"height": 1282, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1282/9442035e
+6388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 1920}, 
+{"height": 1367, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1367/9442035e
+6388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2397x1600/9442035e
+6388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 2397}, 
+{"height": 1709, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/966f46de8
+00cd0eaf4e20b0084af24c5/photo-1587321174565-73cffc72e10a", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#ac643b", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1587321174565-73cffc72e10a?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "vMB5KtGk", "shortUrl": "https://trello.com/b/vMB5KtGk", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/vMB5KtGk/delevery-de-servi%C3%A7os"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2020-10-09T01:19:27.265Z", "dateLastView": "2022-01-28T11:46:32.627Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "5f7bac23318a306cedd5d37d", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"5f7dbb9a0b6587232f882cac", "idTags": [], "ixUpdate": "141", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5f7bac23318a306cedd5d37e", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "Delivery service", 
+"nodeId": 
+"ari☁trello::board/workspace/5f7dbb9a0b6587232f882cac/5f7bac23318a306cedd5d37d",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5f7b3dff65cbd85e5288d503", "backgroundBottomColor": "#4d2c15", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/0d201df69
+4589dd2582453623ae271cf/photo-1601660803615-4e5bbb72596f", 
+"backgroundImageScaled": [{"height": 100, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/56x100/cf1dbfe7b7c
+cd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 56}, 
+{"height": 192, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/108x192/cf1dbfe7b7
+ccd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 108}, 
+{"height": 480, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/270x480/cf1dbfe7b7
+ccd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 270}, 
+{"height": 960, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/540x960/cf1dbfe7b7
+ccd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 540}, 
+{"height": 1024, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/576x1024/cf1dbfe7b
+7ccd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 576}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/720x1280/cf1dbfe7b
+7ccd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 720}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/900x1600/cf1dbfe7b
+7ccd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 900}, 
+{"height": 1920, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1080x1920/cf1dbfe7
+b7ccd1cc9580a642d39c5657/photo-1601660803615-4e5bbb72596f.jpg", "width": 1080}, 
+{"height": 2048, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/0d201df69
+4589dd2582453623ae271cf/photo-1601660803615-4e5bbb72596f", "width": 1152}], 
+"backgroundTile": false, "backgroundTopColor": "#b4d0cf", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1601660803615-4e5bbb72596f?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "4Aa8Wtcf", "shortUrl": "https://trello.com/b/4Aa8Wtcf", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/4Aa8Wtcf/delivery-service"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2021-06-16T15:33:06.505Z", "dateLastView": "2021-06-16T15:33:06.601Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "5f78cf5bb846ad03b01354ec", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"5f68a5cdfdcdd47cf2f9098f", "idTags": [], "ixUpdate": "219", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5f78cf5bb846ad03b01354ed", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "easyFix", "nodeId": 
+"ari☁trello::board/workspace/5f68a5cdfdcdd47cf2f9098f/5f78cf5bb846ad03b01354ec",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5ea964025f76fe2a5a11bc9a", "backgroundBottomColor": "#d3d3d1", 
+"backgroundBrightness": "light", "backgroundColor": null, "backgroundDarkColor":
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/966f46de8
+00cd0eaf4e20b0084af24c5/photo-1587321174565-73cffc72e10a", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/9442035e638
+8064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/9442035e63
+88064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/9442035e63
+88064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 480}, 
+{"height": 641, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x641/9442035e63
+88064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 960}, 
+{"height": 684, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x684/9442035e6
+388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 1024}, 
+{"height": 855, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x855/9442035e6
+388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 1280}, 
+{"height": 1282, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1282/9442035e
+6388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 1920}, 
+{"height": 1367, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1367/9442035e
+6388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2397x1600/9442035e
+6388064b54ca0618b0514fa0/photo-1587321174565-73cffc72e10a.jpg", "width": 2397}, 
+{"height": 1709, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/966f46de8
+00cd0eaf4e20b0084af24c5/photo-1587321174565-73cffc72e10a", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#ac643b", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1587321174565-73cffc72e10a?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "VMdGIeWD", "shortUrl": "https://trello.com/b/VMdGIeWD", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/VMdGIeWD/easyfix"}, {"closed": false, "creationMethod": 
+null, "creationMethodError": null, "creationMethodLoadingStartedAt": null, 
+"dateClosed": null, "dateLastActivity": "2026-04-11T13:54:15.324Z", 
+"dateLastView": "2026-04-11T13:55:34.896Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"60933ffb1a0ea849665b2284", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "604645477e77001a45a8f730", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "1553", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"609340ff0a8fb28481d225f2", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}, {"deactivated": false, "id": 
+"609340ff793b776a18589d3a", "idMember": "5fd95d32d4842e353b47f578", 
+"memberType": "admin", "unconfirmed": false}], "name": "Estudo b\u00e1sico de 
+programa\u00e7\u00e3o", "nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/60933ffb1a0ea849665b2284",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"grey", "backgroundBottomColor": "#838C91", "backgroundBrightness": "dark", 
+"backgroundColor": "#838C91", "backgroundDarkColor": null, 
+"backgroundDarkImage": null, "backgroundImage": null, "backgroundImageScaled": 
+null, "backgroundTile": false, "backgroundTopColor": "#838C91", 
+"calendarFeedEnabled": false, "canBeEnterprise": true, "canBeOrg": true, 
+"canBePrivate": true, "canBePublic": true, "canInvite": true, "cardAging": 
+"regular", "cardCounts": false, "cardCovers": true, "comments": "members", 
+"hiddenPluginBoardButtons": [], "hideVotes": false, "invitations": "members", 
+"isTemplate": false, "permissionLevel": "private", "selfJoin": true, 
+"sharedSourceUrl": null, "showCompleteStatus": true, "switcherViews": 
+[{"enabled": true, "viewType": "Board"}, {"enabled": true, "viewType": "Table"},
+{"enabled": false, "viewType": "Calendar"}, {"enabled": false, "viewType": 
+"Dashboard"}, {"enabled": false, "viewType": "Timeline"}, {"enabled": false, 
+"viewType": "Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "cUWWJEod", 
+"shortUrl": "https://trello.com/b/cUWWJEod", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/cUWWJEod/estudo-b%C3%A1sico-de-programa%C3%A7%C3%A3o"}, 
+{"closed": false, "creationMethod": "automatic", "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2019-08-12T11:43:01.407Z", "dateLastView": "2020-03-26T20:48:36.211Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "5d5019f7f5ace62e9677cb44", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "505", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5d5019f7f5ace62e9677cb48", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "Estudos", "nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/5d5019f7f5ace62e9677cb44",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5d4c466eb39190543ce2d84d", "backgroundBottomColor": "#4b3e34", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1365x2048/70cd6059
+e980e33fb0b64c16691687fa/photo-1565207470635-d14c3e9152db", 
+"backgroundImageScaled": [{"height": 100, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/67x100/39b36e24827
+af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 67}, 
+{"height": 192, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/128x192/39b36e2482
+7af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 128}, 
+{"height": 480, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/320x480/39b36e2482
+7af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 320}, 
+{"height": 960, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/640x960/39b36e2482
+7af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 640}, 
+{"height": 1024, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/683x1024/39b36e248
+27af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 683}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/853x1280/39b36e248
+27af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 853}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1066x1600/39b36e24
+827af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 1066}, 
+{"height": 1920, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x1920/39b36e24
+827af4237bcbfd1a45e84308/photo-1565207470635-d14c3e9152db.jpg", "width": 1280}, 
+{"height": 2048, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1365x2048/70cd6059
+e980e33fb0b64c16691687fa/photo-1565207470635-d14c3e9152db", "width": 1365}], 
+"backgroundTile": false, "backgroundTopColor": "#cdc5c5", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "private", "selfJoin": false, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1565207470635-d14c3e9152db?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "ahJ4GoE2", "shortUrl": "https://trello.com/b/ahJ4GoE2", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/ahJ4GoE2/estudos"}, {"closed": false, "creationMethod": 
+"automatic", "creationMethodError": null, "creationMethodLoadingStartedAt": 
+null, "dateClosed": null, "dateLastActivity": "2026-04-23T18:27:41.341Z", 
+"dateLastView": "2026-04-23T21:21:51.503Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"69adbef206e4a17da2c035aa", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5d548276cf39ea13e633ed8f", "idOrganization": 
+"600a24519bb55b6c6036e7bd", "idTags": [], "ixUpdate": "1374", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "Ferramentas", 
+"blue_dark": "", "blue_light": "", "green": "", "green_dark": "", "green_light":
+"", "lime": "", "lime_dark": "", "lime_light": "", "orange": "Mentalidade", 
+"orange_dark": "", "orange_light": "", "pink": "", "pink_dark": "", 
+"pink_light": "", "purple": "Programa\u00e7\u00e3o", "purple_dark": "", 
+"purple_light": "", "red": "Estudos", "red_dark": "", "red_light": "", "sky": 
+"", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "", 
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"69b0cbe5a0c6bc626bde18cc", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}, {"deactivated": false, "id": 
+"69adbef206e4a17da2c035b8", "idMember": "5d548276cf39ea13e633ed8f", 
+"memberType": "admin", "unconfirmed": false}], "name": "Estudos", "nodeId": 
+"ari☁trello::board/workspace/600a24519bb55b6c6036e7bd/69adbef206e4a17da2c035aa",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"69ada4914c5b9f54429a5a5c", "backgroundBottomColor": "#5d3c22", 
+"backgroundBrightness": "light", "backgroundColor": null, "backgroundDarkColor":
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/581a009b8
+417d47838d4d303f3c0fca3/photo-1742156345582-b857d994c84e", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/b527d137683
+aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 140}, 
+{"height": 170, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x170/b527d13768
+3aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/b527d13768
+3aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 480}, 
+{"height": 640, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x640/b527d13768
+3aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 960}, 
+{"height": 683, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/b527d1376
+83aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 1024}, 
+{"height": 854, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/b527d1376
+83aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 1280}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1280/b527d137
+683aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 1920},
+{"height": 1366, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/b527d137
+683aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 2048},
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/b527d137
+683aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 2400},
+{"height": 1707, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1707/b527d137
+683aeadb091fc8bacc73ec93/photo-1742156345582-b857d994c84e.webp", "width": 
+2560}], "backgroundTile": false, "backgroundTopColor": "#dedddf", 
+"calendarFeedEnabled": false, "canBeEnterprise": true, "canBeOrg": true, 
+"canBePrivate": true, "canBePublic": true, "canInvite": true, "cardAging": 
+"regular", "cardCounts": false, "cardCovers": true, "comments": "members", 
+"hiddenPluginBoardButtons": [], "hideVotes": false, "invitations": "members", 
+"isTemplate": false, "permissionLevel": "org", "selfJoin": true, 
+"sharedSourceUrl": 
+"https://images.unsplash.com/photo-1742156345582-b857d994c84e?ixid=M3w3MDY2fDB8M
+Xxjb2xsZWN0aW9ufDF8MzE3MDk5fHx8fHwyfHwxNzcyOTg3NTAwfA&ixlib=rb-4.1.0&w=2560&h=20
+48&q=90", "showCompleteStatus": true, "switcherViews": [{"enabled": true, 
+"viewType": "Board"}, {"enabled": true, "viewType": "Table"}, {"enabled": false,
+"viewType": "Calendar"}, {"enabled": false, "viewType": "Dashboard"}, 
+{"enabled": false, "viewType": "Timeline"}, {"enabled": false, "viewType": 
+"Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "2zgGtsF0", 
+"shortUrl": "https://trello.com/b/2zgGtsF0", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/2zgGtsF0/estudos"}, {"closed": false, "creationMethod": 
+null, "creationMethodError": null, "creationMethodLoadingStartedAt": null, 
+"dateClosed": null, "dateLastActivity": "2020-01-27T22:10:37.961Z", 
+"dateLastView": "2026-04-23T16:49:58.885Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"5e2dd2534a6e252a49c50f85", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "155", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5e2dd2534a6e252a49c50f86", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "Estudos matheus", 
+"nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/5e2dd2534a6e252a49c50f85",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"green", "backgroundBottomColor": "#519839", "backgroundBrightness": "dark", 
+"backgroundColor": "#519839", "backgroundDarkColor": null, 
+"backgroundDarkImage": null, "backgroundImage": null, "backgroundImageScaled": 
+null, "backgroundTile": false, "backgroundTopColor": "#519839", 
+"calendarFeedEnabled": false, "canBeEnterprise": true, "canBeOrg": true, 
+"canBePrivate": true, "canBePublic": true, "canInvite": true, "cardAging": 
+"regular", "cardCounts": false, "cardCovers": true, "comments": "members", 
+"hiddenPluginBoardButtons": [], "hideVotes": false, "invitations": "members", 
+"isTemplate": false, "permissionLevel": "private", "selfJoin": false, 
+"sharedSourceUrl": null, "showCompleteStatus": true, "switcherViews": 
+[{"enabled": true, "viewType": "Board"}, {"enabled": true, "viewType": "Table"},
+{"enabled": false, "viewType": "Calendar"}, {"enabled": false, "viewType": 
+"Dashboard"}, {"enabled": false, "viewType": "Timeline"}, {"enabled": false, 
+"viewType": "Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "d8uh9u5u", 
+"shortUrl": "https://trello.com/b/d8uh9u5u", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/d8uh9u5u/estudos-matheus"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2020-04-30T03:16:17.897Z", "dateLastView": "2020-03-27T14:55:35.289Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "5e7d1570e66e801166927bdd", "idBoardSource": 
+"5df7e244636f358a22753977", "idEnterprise": null, "idMemberCreator": null, 
+"idOrganization": "60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "588", 
+"labelNames": {"black": "TDD", "black_dark": "", "black_light": "", "blue": 
+"DevOps", "blue_dark": "", "blue_light": "", "green": "JAVA EE", "green_dark": 
+"", "green_light": "", "lime": "Good habits", "lime_dark": "", "lime_light": "",
+"orange": "JAVA", "orange_dark": "", "orange_light": "", "pink": "libraries", 
+"pink_dark": "", "pink_light": "", "purple": "IDE", "purple_dark": "", 
+"purple_light": "", "red": "Amazon Web Services", "red_dark": "", "red_light": 
+"", "sky": "Frameworks", "sky_dark": "", "sky_light": "", "yellow": "FrontEnd 
+Web", "yellow_dark": "", "yellow_light": ""}, "limits": {"attachments": 
+{"perBoard": {"disableAt": 36000, "status": "ok", "warnAt": 28800}, "perCard": 
+{"disableAt": 1000, "status": "ok", "warnAt": 800}}, "boards": 
+{"totalAccessRequestsPerBoard": {"disableAt": 4000, "status": "ok", "warnAt": 
+3200}, "totalMembersPerBoard": {"disableAt": 1600, "status": "ok", "warnAt": 
+1280}}, "cards": {"openPerBoard": {"disableAt": 5000, "status": "ok", "warnAt": 
+4000}, "openPerList": {"disableAt": 5000, "status": "ok", "warnAt": 4000}, 
+"totalPerBoard": {"disableAt": 2000000, "status": "ok", "warnAt": 1600000}, 
+"totalPerList": {"disableAt": 1000000, "status": "ok", "warnAt": 800000}}, 
+"checkItems": {"perChecklist": {"disableAt": 200, "status": "ok", "warnAt": 
+160}}, "checklists": {"perBoard": {"disableAt": 1800000, "status": "ok", 
+"warnAt": 1440000}, "perCard": {"disableAt": 500, "status": "ok", "warnAt": 
+400}}, "customFieldOptions": {"perField": {"disableAt": 50, "status": "ok", 
+"warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, "status": "ok", 
+"warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, "status": "ok", 
+"warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, "status": "ok", 
+"warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": "ok", "warnAt": 
+2400}}, "reactions": {"perAction": {"disableAt": 900, "status": "ok", "warnAt": 
+720}, "uniquePerAction": {"disableAt": 17, "status": "ok", "warnAt": 14}}, 
+"stickers": {"perCard": {"disableAt": 70, "status": "ok", "warnAt": 56}}}, 
+"memberships": [{"deactivated": false, "id": "5e7d1573e66e801166928557", 
+"idMember": "5baacfa7ab5f2c4dbe460834", "memberType": "admin", "unconfirmed": 
+false}], "name": "estudos: forma\u00e7\u00e3o geral para o desenvolvedor", 
+"nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/5e7d1570e66e801166927bdd",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5dc04580fea800703ca56488", "backgroundBottomColor": "#353735", 
+"backgroundBrightness": "light", "backgroundColor": null, "backgroundDarkColor":
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1708/26c1184f
+be15681f4e23123218c4e000/photo-1572830108482-e710304fd678", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/da0ffae42bf
+9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/da0ffae42b
+f9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/da0ffae42b
+f9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 480}, 
+{"height": 641, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x641/da0ffae42b
+f9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 960}, 
+{"height": 683, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/da0ffae42
+bf9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 1024}, 
+{"height": 854, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/da0ffae42
+bf9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 1280}, 
+{"height": 1281, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1281/da0ffae4
+2bf9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 1920}, 
+{"height": 1366, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/da0ffae4
+2bf9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2398x1600/da0ffae4
+2bf9790627358cf45bc6f337/photo-1572830108482-e710304fd678.jpg", "width": 2398}, 
+{"height": 1708, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1708/26c1184f
+be15681f4e23123218c4e000/photo-1572830108482-e710304fd678", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#e2eaf2", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "private", "selfJoin": false, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1572830108482-e710304fd678?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "dF84RJAF", "shortUrl": "https://trello.com/b/dF84RJAF", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/dF84RJAF/estudos-forma%C3%A7%C3%A3o-geral-para-o-desenvolv
+edor"}, {"closed": false, "creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2026-04-11T23:59:52.378Z", "dateLastView": "2022-02-18T03:42:49.098Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "6132a67f46d60f63b36c80e3", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"61264c484db2262edb3f88f4", "idTags": [], "ixUpdate": "2021", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "organizacional", "green_dark": "", "green_light": 
+"", "lime": "", "lime_dark": "", "lime_light": "", "orange": "Backend", 
+"orange_dark": "", "orange_light": "", "pink": "", "pink_dark": "", 
+"pink_light": "", "purple": "Design", "purple_dark": "", "purple_light": "", 
+"red": "", "red_dark": "", "red_light": "", "sky": "", "sky_dark": "", 
+"sky_light": "", "yellow": "frontend", "yellow_dark": "", "yellow_light": ""}, 
+"limits": {"attachments": {"perBoard": {"disableAt": 36000, "status": "ok", 
+"warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok", "warnAt": 
+800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, "status": 
+"ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, "status": 
+"ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": "ok", 
+"warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"6132a67f46d60f63b36c80e4", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}, {"deactivated": false, "id": 
+"613b63e60e15f715919108c8", "idMember": "5aaa67f8a12a264160647b08", 
+"memberType": "normal", "unconfirmed": false}, {"deactivated": false, "id": 
+"61b7c746b0acb118e58adca8", "idMember": "5bc8bf3ba2e14c1f6170e51b", 
+"memberType": "normal", "unconfirmed": false}, {"deactivated": false, "id": 
+"620c1df3dbdacb5429921088", "idMember": "598ce144dc5e7a7a02883f4d", 
+"memberType": "normal", "unconfirmed": false}, {"deactivated": false, "id": 
+"61d37082f569843713d4de0c", "idMember": "5fd95d32d4842e353b47f578", 
+"memberType": "normal", "unconfirmed": false}], "name": "Hakles", "nodeId": 
+"ari☁trello::board/workspace/61264c484db2262edb3f88f4/6132a67f46d60f63b36c80e3",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"green", "backgroundBottomColor": "#519839", "backgroundBrightness": "dark", 
+"backgroundColor": "#519839", "backgroundDarkColor": null, 
+"backgroundDarkImage": null, "backgroundImage": null, "backgroundImageScaled": 
+null, "backgroundTile": false, "backgroundTopColor": "#519839", 
+"calendarFeedEnabled": false, "canBeEnterprise": true, "canBeOrg": true, 
+"canBePrivate": true, "canBePublic": true, "canInvite": true, "cardAging": 
+"regular", "cardCounts": false, "cardCovers": true, "comments": "members", 
+"hiddenPluginBoardButtons": [], "hideVotes": false, "invitations": "members", 
+"isTemplate": false, "permissionLevel": "org", "selfJoin": true, 
+"sharedSourceUrl": null, "showCompleteStatus": true, "switcherViews": 
+[{"enabled": true, "viewType": "Board"}, {"enabled": true, "viewType": "Table"},
+{"enabled": false, "viewType": "Calendar"}, {"enabled": false, "viewType": 
+"Dashboard"}, {"enabled": false, "viewType": "Timeline"}, {"enabled": false, 
+"viewType": "Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "uUxWY53D", 
+"shortUrl": "https://trello.com/b/uUxWY53D", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/uUxWY53D/hakles"}, {"closed": false, "creationMethod": 
+null, "creationMethodError": null, "creationMethodLoadingStartedAt": null, 
+"dateClosed": null, "dateLastActivity": "2026-04-10T10:56:12.281Z", 
+"dateLastView": "2021-10-07T21:32:05.766Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"5f68a5ab9b242789b8036a1b", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"5f68a5cdfdcdd47cf2f9098f", "idTags": [], "ixUpdate": "2068", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5f68a5ab9b242789b8036a1c", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "Hemoderi", "nodeId": 
+"ari☁trello::board/workspace/5f68a5cdfdcdd47cf2f9098f/5f68a5ab9b242789b8036a1b",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"red", "backgroundBottomColor": "#B04632", "backgroundBrightness": "dark", 
+"backgroundColor": "#B04632", "backgroundDarkColor": null, 
+"backgroundDarkImage": null, "backgroundImage": null, "backgroundImageScaled": 
+null, "backgroundTile": false, "backgroundTopColor": "#B04632", 
+"calendarFeedEnabled": false, "canBeEnterprise": true, "canBeOrg": true, 
+"canBePrivate": true, "canBePublic": true, "canInvite": true, "cardAging": 
+"regular", "cardCounts": false, "cardCovers": true, "comments": "members", 
+"hiddenPluginBoardButtons": [], "hideVotes": false, "invitations": "members", 
+"isTemplate": false, "permissionLevel": "private", "selfJoin": false, 
+"sharedSourceUrl": null, "showCompleteStatus": true, "switcherViews": 
+[{"enabled": true, "viewType": "Board"}, {"enabled": true, "viewType": "Table"},
+{"enabled": false, "viewType": "Calendar"}, {"enabled": false, "viewType": 
+"Dashboard"}, {"enabled": false, "viewType": "Timeline"}, {"enabled": false, 
+"viewType": "Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "f7TZyjiC", 
+"shortUrl": "https://trello.com/b/f7TZyjiC", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/f7TZyjiC/hemoderi"}, {"closed": false, "creationMethod": 
+null, "creationMethodError": null, "creationMethodLoadingStartedAt": null, 
+"dateClosed": null, "dateLastActivity": "2020-05-15T22:39:10.147Z", 
+"dateLastView": "2020-11-13T01:08:34.505Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"5ebf17e623a6a274e7ac5199", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "22", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5ebf17e623a6a274e7ac519a", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}], "name": "Hemoderio App", 
+"nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/5ebf17e623a6a274e7ac5199",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5ebed91ac3cb841bce1db22a", "backgroundBottomColor": "#774839", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/557c4d911
+bf127da8e204c260c40eaac/photo-1589489604070-33c78761d718", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/748877679f2
+db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/748877679f
+2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/748877679f
+2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 480}, 
+{"height": 640, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x640/748877679f
+2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 960}, 
+{"height": 683, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/748877679
+f2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 1024}, 
+{"height": 854, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/748877679
+f2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 1280}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1280/74887767
+9f2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 1920}, 
+{"height": 1366, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/74887767
+9f2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/74887767
+9f2db5473a8af55a130ec251/photo-1589489604070-33c78761d718.jpg", "width": 2400}, 
+{"height": 1707, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/557c4d911
+bf127da8e204c260c40eaac/photo-1589489604070-33c78761d718", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#f7e4e7", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "private", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1589489604070-33c78761d718?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "YN4vZ2yu", "shortUrl": "https://trello.com/b/YN4vZ2yu", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/YN4vZ2yu/hemoderio-app"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2019-11-21T22:41:55.554Z", "dateLastView": "2020-01-06T22:08:46.384Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "5dd49b91bfc5683d1d5b7865", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5bacc06ea998915d080f0df7", "idOrganization": 
+"60cb1a36aaee8978e17470d6", "idTags": [], "ixUpdate": "74", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": "", 
+"lime_dark": "", "lime_light": "", "orange": "", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5dd49e0bd3843707080c85a0", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "normal", "unconfirmed": false}, {"deactivated": false, "id": 
+"5dd49bd7c39367715b114008", "idMember": "5bae647e4a5a6f46e625fa2c", 
+"memberType": "admin", "unconfirmed": false}], "name": "Ideias", "nodeId": 
+"ari☁trello::board/workspace/60cb1a36aaee8978e17470d6/5dd49b91bfc5683d1d5b7865",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5dd2ce289bafec193e154b3a", "backgroundBottomColor": "#12151c", 
+"backgroundBrightness": "light", "backgroundColor": null, "backgroundDarkColor":
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/ceab9fa31
+d2778a3d331a0f39686b720/photo-1574001412367-cf5f9756bb32", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/e25681e63f9
+5582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/e25681e63f
+95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/e25681e63f
+95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 480}, 
+{"height": 640, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x640/e25681e63f
+95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 960}, 
+{"height": 683, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/e25681e63
+f95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 1024}, 
+{"height": 854, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/e25681e63
+f95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 1280}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1280/e25681e6
+3f95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 1920}, 
+{"height": 1366, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/e25681e6
+3f95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/e25681e6
+3f95582737472ba846b6e54f/photo-1574001412367-cf5f9756bb32.jpg", "width": 2400}, 
+{"height": 1707, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/ceab9fa31
+d2778a3d331a0f39686b720/photo-1574001412367-cf5f9756bb32", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#888e98", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "private", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1574001412367-cf5f9756bb32?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "9xNGU1Hd", "shortUrl": "https://trello.com/b/9xNGU1Hd", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/9xNGU1Hd/ideias"}, {"closed": false, "creationMethod": 
+null, "creationMethodError": null, "creationMethodLoadingStartedAt": null, 
+"dateClosed": null, "dateLastActivity": "2026-03-29T21:17:19.493Z", 
+"dateLastView": "2020-10-29T13:51:57.021Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"5ebb634e0af1852cc9952604", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "954", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "Dev-Back", 
+"blue_dark": "", "blue_light": "", "green": "Prototipo", "green_dark": "", 
+"green_light": "", "lime": "", "lime_dark": "", "lime_light": "", "orange": "", 
+"orange_dark": "", "orange_light": "", "pink": "Neg\u00f3cio", "pink_dark": "", 
+"pink_light": "", "purple": "", "purple_dark": "", "purple_light": "", "red": 
+"Dev-Front", "red_dark": "", "red_light": "", "sky": "Estudos", "sky_dark": "", 
+"sky_light": "", "yellow": "Tarefa", "yellow_dark": "", "yellow_light": ""}, 
+"limits": {"attachments": {"perBoard": {"disableAt": 36000, "status": "ok", 
+"warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok", "warnAt": 
+800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, "status": 
+"ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, "status": 
+"ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": "ok", 
+"warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5ebb634e0af1852cc9952605", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}, {"deactivated": false, "id": 
+"5ebb640d05f1db6172e3ad4d", "idMember": "5dd2e868852f7525e9cbc549", 
+"memberType": "admin", "unconfirmed": false}], "name": "Investiment Wallet", 
+"nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/5ebb634e0af1852cc9952604",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5ebae851f4dee61b0e6a9858", "backgroundBottomColor": "#121c14", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/def35eaa4
+b855907ff71eba2eda1c72d/photo-1589163809021-966e3ced4f2f", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/8624a628c4a
+a8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 140}, 
+{"height": 170, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x170/8624a628c4
+aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 256}, 
+{"height": 319, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x319/8624a628c4
+aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 480}, 
+{"height": 639, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x639/8624a628c4
+aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 960}, 
+{"height": 681, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x681/8624a628c
+4aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 1024}, 
+{"height": 852, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x852/8624a628c
+4aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 1280}, 
+{"height": 1277, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1277/8624a628
+c4aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 1920}, 
+{"height": 1362, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1362/8624a628
+c4aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2405x1600/8624a628
+c4aa8a896c3477e37c526192/photo-1589163809021-966e3ced4f2f.jpg", "width": 2405}, 
+{"height": 1703, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/def35eaa4
+b855907ff71eba2eda1c72d/photo-1589163809021-966e3ced4f2f", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#121d16", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "private", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1589163809021-966e3ced4f2f?ixlib=rb-1.2.1&ixi
+d=eyJhcHBfaWQiOjcwNjZ9&w=2560&h=2048&q=90", "showCompleteStatus": true, 
+"switcherViews": [{"enabled": true, "viewType": "Board"}, {"enabled": true, 
+"viewType": "Table"}, {"enabled": false, "viewType": "Calendar"}, {"enabled": 
+false, "viewType": "Dashboard"}, {"enabled": false, "viewType": "Timeline"}, 
+{"enabled": false, "viewType": "Map"}], "voting": "disabled"}, 
+"premiumFeatures": ["additionalBoardBackgrounds", "additionalStickers", 
+"customBoardBackgrounds", "customEmoji", "customStickers", "plugins"], 
+"shortLink": "cdvQS5RM", "shortUrl": "https://trello.com/b/cdvQS5RM", "starred":
+false, "subscribed": false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/cdvQS5RM/investiment-wallet"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2022-02-11T20:28:40.324Z", "dateLastView": "2021-05-17T14:32:56.862Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "609ec72ddd253678a29659a1", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5fd95d32d4842e353b47f578", "idOrganization": 
+"5fd95e1aa361be74c3411653", "idTags": [], "ixUpdate": "1883", "labelNames": 
+{"black": "Trabalho", "black_dark": "", "black_light": "", "blue": "English", 
+"blue_dark": "", "blue_light": "", "green": "Jogos", "green_dark": "", 
+"green_light": "", "lime": "", "lime_dark": "", "lime_light": "", "orange": 
+"Ilustra\u00e7\u00e3o", "orange_dark": "", "orange_light": "", "pink": "Designer
+ux", "pink_dark": "", "pink_light": "", "purple": "Estudo", "purple_dark": "", 
+"purple_light": "", "red": "Curso Wordpress", "red_dark": "", "red_light": "", 
+"sky": "Portugu\u00eas", "sky_dark": "", "sky_light": "", "yellow": "UI", 
+"yellow_dark": "", "yellow_light": ""}, "limits": {"attachments": {"perBoard": 
+{"disableAt": 36000, "status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 
+1000, "status": "ok", "warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard":
+{"disableAt": 4000, "status": "ok", "warnAt": 3200}, "totalMembersPerBoard": 
+{"disableAt": 1600, "status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": 
+{"disableAt": 5000, "status": "ok", "warnAt": 4000}, "openPerList": 
+{"disableAt": 5000, "status": "ok", "warnAt": 4000}, "totalPerBoard": 
+{"disableAt": 2000000, "status": "ok", "warnAt": 1600000}, "totalPerList": 
+{"disableAt": 1000000, "status": "ok", "warnAt": 800000}}, "checkItems": 
+{"perChecklist": {"disableAt": 200, "status": "ok", "warnAt": 160}}, 
+"checklists": {"perBoard": {"disableAt": 1800000, "status": "ok", "warnAt": 
+1440000}, "perCard": {"disableAt": 500, "status": "ok", "warnAt": 400}}, 
+"customFieldOptions": {"perField": {"disableAt": 50, "status": "ok", "warnAt": 
+40}}, "customFields": {"perBoard": {"disableAt": 50, "status": "ok", "warnAt": 
+40}}, "labels": {"perBoard": {"disableAt": 1000, "status": "ok", "warnAt": 
+800}}, "lists": {"openPerBoard": {"disableAt": 500, "status": "ok", "warnAt": 
+400}, "totalPerBoard": {"disableAt": 3000, "status": "ok", "warnAt": 2400}}, 
+"reactions": {"perAction": {"disableAt": 900, "status": "ok", "warnAt": 720}, 
+"uniquePerAction": {"disableAt": 17, "status": "ok", "warnAt": 14}}, "stickers":
+{"perCard": {"disableAt": 70, "status": "ok", "warnAt": 56}}}, "memberships": 
+[{"deactivated": false, "id": "609ec7e6f586fb10ad84a31a", "idMember": 
+"5baacfa7ab5f2c4dbe460834", "memberType": "normal", "unconfirmed": false}, 
+{"deactivated": false, "id": "609ec72ddd253678a29659a2", "idMember": 
+"5fd95d32d4842e353b47f578", "memberType": "admin", "unconfirmed": false}], 
+"name": "Jheine Rainha - Cursos", "nodeId": 
+"ari☁trello::board/workspace/5fd95e1aa361be74c3411653/609ec72ddd253678a29659a1",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"609ec757d7b0443c1b420e8c", "backgroundBottomColor": "#0d0d0e", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/6e279a758
+868297a2cad2994b2a527b8/photo-1579935110464-fcd041be62d0", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/7cc52c3cc3b
+be53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/7cc52c3cc3
+bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/7cc52c3cc3
+bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 480}, 
+{"height": 640, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x640/7cc52c3cc3
+bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 960}, 
+{"height": 683, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x683/7cc52c3cc
+3bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 1024}, 
+{"height": 854, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x854/7cc52c3cc
+3bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 1280}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1280/7cc52c3c
+c3bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 1920}, 
+{"height": 1366, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1366/7cc52c3c
+c3bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/7cc52c3c
+c3bbe53cdf56acb2a5e8d3e6/photo-1579935110464-fcd041be62d0.jpg", "width": 2400}, 
+{"height": 1707, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/6e279a758
+868297a2cad2994b2a527b8/photo-1579935110464-fcd041be62d0", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#0c0c0c", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1579935110464-fcd041be62d0?ixid=Mnw3MDY2fDB8M
+XxzZWFyY2h8MTIzfHxkaXNuZXl8ZW58MHx8fHwxNjIxMDE4NDQ4&ixlib=rb-1.2.1&w=2560&h=2048
+&q=90", "showCompleteStatus": true, "switcherViews": [{"enabled": true, 
+"viewType": "Board"}, {"enabled": true, "viewType": "Table"}, {"enabled": false,
+"viewType": "Calendar"}, {"enabled": false, "viewType": "Dashboard"}, 
+{"enabled": false, "viewType": "Timeline"}, {"enabled": false, "viewType": 
+"Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "sOD9qcO7", 
+"shortUrl": "https://trello.com/b/sOD9qcO7", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/sOD9qcO7/jheine-rainha-cursos"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2025-08-22T02:56:23.731Z", "dateLastView": "2022-08-17T04:02:43.021Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "62ec69219a8b1f15383a8ad2", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "302", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "", "blue_dark": "", 
+"blue_light": "", "green": "Front", "green_dark": "", "green_light": "", "lime":
+"", "lime_dark": "", "lime_light": "", "orange": "Back", "orange_dark": "", 
+"orange_light": "", "pink": "", "pink_dark": "", "pink_light": "", "purple": "",
+"purple_dark": "", "purple_light": "", "red": "", "red_dark": "", "red_light": 
+"", "sky": "", "sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "",
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"62ec69219a8b1f15383a8ada", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}, {"deactivated": false, "id": 
+"62ec69f05a93bd4b0bec138d", "idMember": "62ec63e404e6676a74126560", 
+"memberType": "normal", "unconfirmed": false}, {"deactivated": false, "id": 
+"62ec6a96ce45235f04a90351", "idMember": "5347ff77757542942d9a03bf", 
+"memberType": "normal", "unconfirmed": false}], "name": "Mercador MVP", 
+"nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/62ec69219a8b1f15383a8ad2",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"62ec500ac39eba5f174de7e2", "backgroundBottomColor": "#171d19", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/f0c3b4c32
+d0e6c5a5181c67d55553e1e/photo-1638137731128-07b495f1bcb1", 
+"backgroundImageScaled": [{"height": 93, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/4c4a3584165
+ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 140}, 
+{"height": 171, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x171/4c4a358416
+5ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 256}, 
+{"height": 320, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x320/4c4a358416
+5ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 480}, 
+{"height": 639, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x639/4c4a358416
+5ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 960}, 
+{"height": 682, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x682/4c4a35841
+65ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 1024}, 
+{"height": 853, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x853/4c4a35841
+65ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 1280}, 
+{"height": 1279, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1279/4c4a3584
+165ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 1920}, 
+{"height": 1364, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1364/4c4a3584
+165ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 2048}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2402x1600/4c4a3584
+165ba25fec8953f7c384ce2a/photo-1638137731128-07b495f1bcb1.jpg", "width": 2402}, 
+{"height": 1705, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/f0c3b4c32
+d0e6c5a5181c67d55553e1e/photo-1638137731128-07b495f1bcb1", "width": 2560}], 
+"backgroundTile": false, "backgroundTopColor": "#202723", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1638137731128-07b495f1bcb1?ixid=Mnw3MDY2fDB8M
+Xxjb2xsZWN0aW9ufDF8MzE3MDk5fHx8fHwyfHwxNjU5NjU0MTM5&ixlib=rb-1.2.1&w=2560&h=2048
+&q=90", "showCompleteStatus": true, "switcherViews": [{"enabled": true, 
+"viewType": "Board"}, {"enabled": true, "viewType": "Table"}, {"enabled": false,
+"viewType": "Calendar"}, {"enabled": false, "viewType": "Dashboard"}, 
+{"enabled": false, "viewType": "Timeline"}, {"enabled": false, "viewType": 
+"Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "a0fgWguv", 
+"shortUrl": "https://trello.com/b/a0fgWguv", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/a0fgWguv/mercador-mvp"}, {"closed": false, 
+"creationMethod": null, "creationMethodError": null, 
+"creationMethodLoadingStartedAt": null, "dateClosed": null, "dateLastActivity": 
+"2022-06-13T22:06:22.881Z", "dateLastView": "2022-08-15T17:44:49.511Z", 
+"datePluginDisable": null, "desc": "", "descData": null, "enterpriseOwned": 
+false, "id": "61f333a4dbd9ba0c228246ac", "idBoardSource": null, "idEnterprise": 
+null, "idMemberCreator": "5baacfa7ab5f2c4dbe460834", "idOrganization": 
+"60ccc920aaa74d662bacf891", "idTags": [], "ixUpdate": "2497", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "API", "blue_dark": 
+"", "blue_light": "", "green": "", "green_dark": "", "green_light": "", "lime": 
+"Apresenta\u00e7\u00e3o Investidores", "lime_dark": "", "lime_light": "", 
+"orange": "IMPEDIMENTO", "orange_dark": "", "orange_light": "", "pink": "", 
+"pink_dark": "", "pink_light": "", "purple": "APP", "purple_dark": "", 
+"purple_light": "", "red": "BUG", "red_dark": "", "red_light": "", "sky": "", 
+"sky_dark": "", "sky_light": "", "yellow": "", "yellow_dark": "", 
+"yellow_light": ""}, "limits": {"attachments": {"perBoard": {"disableAt": 36000,
+"status": "ok", "warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok",
+"warnAt": 800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, 
+"status": "ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, 
+"status": "ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, 
+"status": "ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"61f333a4dbd9ba0c228246ae", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "admin", "unconfirmed": false}, {"deactivated": false, "id": 
+"61f3342a0a82932f89d7e69b", "idMember": "5347ff77757542942d9a03bf", 
+"memberType": "normal", "unconfirmed": false}], "name": "Mercadou", "nodeId": 
+"ari☁trello::board/workspace/60ccc920aaa74d662bacf891/61f333a4dbd9ba0c228246ac",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"61f31f82c7a7f04fc49c15fd", "backgroundBottomColor": "#272a28", 
+"backgroundBrightness": "light", "backgroundColor": null, "backgroundDarkColor":
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/0844b714e
+ef2cd16ae587f1c94821da9/photo-1611269035330-13ea6a4c3019", 
+"backgroundImageScaled": [{"height": 100, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/67x100/d73b0a2ac4e
+13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 67}, 
+{"height": 192, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/128x192/d73b0a2ac4
+e13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 128}, 
+{"height": 480, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/320x480/d73b0a2ac4
+e13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 320}, 
+{"height": 960, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/640x960/d73b0a2ac4
+e13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 640}, 
+{"height": 1024, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/683x1024/d73b0a2ac
+4e13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 683}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/853x1280/d73b0a2ac
+4e13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 853}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1066x1600/d73b0a2a
+c4e13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 1066}, 
+{"height": 1920, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x1920/d73b0a2a
+c4e13a7c123cf8027ec51779/photo-1611269035330-13ea6a4c3019.jpg", "width": 1280}, 
+{"height": 2048, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/0844b714e
+ef2cd16ae587f1c94821da9/photo-1611269035330-13ea6a4c3019", "width": 1365}], 
+"backgroundTile": false, "backgroundTopColor": "#85a7ab", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1611269035330-13ea6a4c3019?ixid=Mnw3MDY2fDB8M
+Xxjb2xsZWN0aW9ufDF8MzE3MDk5fHx8fHwyfHwxNjQzMzIzMjYw&ixlib=rb-1.2.1&w=2560&h=2048
+&q=90", "showCompleteStatus": true, "switcherViews": [{"enabled": true, 
+"viewType": "Board"}, {"enabled": true, "viewType": "Table"}, {"enabled": false,
+"viewType": "Calendar"}, {"enabled": false, "viewType": "Dashboard"}, 
+{"enabled": false, "viewType": "Timeline"}, {"enabled": false, "viewType": 
+"Map"}], "voting": "disabled"}, "premiumFeatures": 
+["additionalBoardBackgrounds", "additionalStickers", "customBoardBackgrounds", 
+"customEmoji", "customStickers", "plugins"], "shortLink": "RJca9xOv", 
+"shortUrl": "https://trello.com/b/RJca9xOv", "starred": false, "subscribed": 
+false, "templateGallery": null, "type": null, "url": 
+"https://trello.com/b/RJca9xOv/mercadou"}, {"closed": false, "creationMethod": 
+"automatic", "creationMethodError": null, "creationMethodLoadingStartedAt": 
+null, "dateClosed": null, "dateLastActivity": "2021-12-25T21:22:39.834Z", 
+"dateLastView": "2021-02-14T16:05:01.097Z", "datePluginDisable": null, "desc": 
+"", "descData": null, "enterpriseOwned": false, "id": 
+"5fd95f1dc8783b2fe734db22", "idBoardSource": null, "idEnterprise": null, 
+"idMemberCreator": "5fd95d32d4842e353b47f578", "idOrganization": 
+"5fd95e1aa361be74c3411653", "idTags": [], "ixUpdate": "1623", "labelNames": 
+{"black": "", "black_dark": "", "black_light": "", "blue": "estudos", 
+"blue_dark": "", "blue_light": "", "green": "backand", "green_dark": "", 
+"green_light": "", "lime": "", "lime_dark": "", "lime_light": "", "orange": 
+"frontend", "orange_dark": "", "orange_light": "", "pink": "", "pink_dark": "", 
+"pink_light": "", "purple": "designer ux", "purple_dark": "", "purple_light": 
+"", "red": "bug", "red_dark": "", "red_light": "", "sky": "", "sky_dark": "", 
+"sky_light": "", "yellow": "melhorias", "yellow_dark": "", "yellow_light": ""}, 
+"limits": {"attachments": {"perBoard": {"disableAt": 36000, "status": "ok", 
+"warnAt": 28800}, "perCard": {"disableAt": 1000, "status": "ok", "warnAt": 
+800}}, "boards": {"totalAccessRequestsPerBoard": {"disableAt": 4000, "status": 
+"ok", "warnAt": 3200}, "totalMembersPerBoard": {"disableAt": 1600, "status": 
+"ok", "warnAt": 1280}}, "cards": {"openPerBoard": {"disableAt": 5000, "status": 
+"ok", "warnAt": 4000}, "openPerList": {"disableAt": 5000, "status": "ok", 
+"warnAt": 4000}, "totalPerBoard": {"disableAt": 2000000, "status": "ok", 
+"warnAt": 1600000}, "totalPerList": {"disableAt": 1000000, "status": "ok", 
+"warnAt": 800000}}, "checkItems": {"perChecklist": {"disableAt": 200, "status": 
+"ok", "warnAt": 160}}, "checklists": {"perBoard": {"disableAt": 1800000, 
+"status": "ok", "warnAt": 1440000}, "perCard": {"disableAt": 500, "status": 
+"ok", "warnAt": 400}}, "customFieldOptions": {"perField": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "customFields": {"perBoard": {"disableAt": 50, 
+"status": "ok", "warnAt": 40}}, "labels": {"perBoard": {"disableAt": 1000, 
+"status": "ok", "warnAt": 800}}, "lists": {"openPerBoard": {"disableAt": 500, 
+"status": "ok", "warnAt": 400}, "totalPerBoard": {"disableAt": 3000, "status": 
+"ok", "warnAt": 2400}}, "reactions": {"perAction": {"disableAt": 900, "status": 
+"ok", "warnAt": 720}, "uniquePerAction": {"disableAt": 17, "status": "ok", 
+"warnAt": 14}}, "stickers": {"perCard": {"disableAt": 70, "status": "ok", 
+"warnAt": 56}}}, "memberships": [{"deactivated": false, "id": 
+"5fdbb804612b462e852b7047", "idMember": "5baacfa7ab5f2c4dbe460834", 
+"memberType": "normal", "unconfirmed": false}, {"deactivated": false, "id": 
+"5fd95f1dc8783b2fe734db26", "idMember": "5fd95d32d4842e353b47f578", 
+"memberType": "admin", "unconfirmed": false}], "name": "sprint 1", "nodeId": 
+"ari☁trello::board/workspace/5fd95e1aa361be74c3411653/5fd95f1dc8783b2fe734db22",
+"pinned": false, "powerUps": [], "prefs": {"autoArchive": null, "background": 
+"5fd933d01d438c23ed292a82", "backgroundBottomColor": "#211b13", 
+"backgroundBrightness": "dark", "backgroundColor": null, "backgroundDarkColor": 
+null, "backgroundDarkImage": null, "backgroundImage": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/34298714b
+b5c2d2def845ba5c36cb099/photo-1607895522490-3772dd8810a6", 
+"backgroundImageScaled": [{"height": 100, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/67x100/3b898fd623b
+3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 67}, 
+{"height": 192, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/128x192/3b898fd623
+b3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 128}, 
+{"height": 480, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/320x480/3b898fd623
+b3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 320}, 
+{"height": 960, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/640x960/3b898fd623
+b3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 640}, 
+{"height": 1024, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/683x1024/3b898fd62
+3b3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 683}, 
+{"height": 1280, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/853x1280/3b898fd62
+3b3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 853}, 
+{"height": 1600, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1066x1600/3b898fd6
+23b3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 1066}, 
+{"height": 1920, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x1920/3b898fd6
+23b3615468314c24ed940d3a/photo-1607895522490-3772dd8810a6.jpg", "width": 1280}, 
+{"height": 2048, "url": 
+"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/34298714b
+b5c2d2def845ba5c36cb099/photo-1607895522490-3772dd8810a6", "width": 1365}], 
+"backgroundTile": false, "backgroundTopColor": "#919a9e", "calendarFeedEnabled":
+false, "canBeEnterprise": true, "canBeOrg": true, "canBePrivate": true, 
+"canBePublic": true, "canInvite": true, "cardAging": "regular", "cardCounts": 
+false, "cardCovers": true, "comments": "members", "hiddenPluginBoardButtons": 
+[], "hideVotes": false, "invitations": "members", "isTemplate": false, 
+"permissionLevel": "org", "selfJoin": true, "sharedSourceUrl": 
+"https://images.unsplash.com/photo-1607895522490-3772dd8810a6?ixid=MXw3MDY2fDB8M
+Xxjb2xsZWN0aW9ufDR8MzE3MDk5fHx8fHwyfA&ixlib=rb-1.2.1&w=2560&h=2048&q=90", 
+"showCompleteStatus": true, "switcherViews": [{"enabled": true, "viewType": 
+"Board"}, {"enabled": true, "viewType": "Table"}, {"enabled": false, "viewType":
+"Calendar"}, {"enabled": false, "viewType": "Dashboard"}, {"enabled": false, 
+"viewType": "Timeline"}, {"enabled": false, "viewType": "Map"}], "voting": 
+"disabled"}, "premiumFeatures": ["additionalBoardBackgrounds", 
+"additionalStickers", "customBoardBackgrounds", "customEmoji", "customStickers",
+"plugins"], "shortLink": "nlmGTZJY", "shortUrl": 
+"https://trello.com/b/nlmGTZJY", "starred": false, "subscribed": false, 
+"templateGallery": null, "type": null, "url": 
+"https://trello.com/b/nlmGTZJY/sprint-1"}]}, "error": null, "successfull": true,
+"successful": true, "logId": "log_8DOvyxy00meP"}

@@ -1,0 +1,23 @@
+name: schema_build
+description: "A professional Server-Driven UI (SDUI) engine and visual builder for Flutter. Create, manage, and update dynamic layouts in real-time via JSON with zero-rebuild reactivity."
+version: 0.1.0
+homepage: https://github.com/jheimes-silveira/schema_build
+repository: https://github.com/jheimes-silveira/schema_build
+issue_tracker: https://github.com/jheimes-silveira/schema_build/issues
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  super_drag_and_drop: ^0.8.23
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:

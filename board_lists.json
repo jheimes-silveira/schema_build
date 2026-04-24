@@ -1,0 +1,41 @@
+{"data": {"lists": [{"closed": false, "color": null, "creationMethod": 
+"automatic", "datasource": {"filter": false}, "id": "5d5019f7f5ace62e9677cb45", 
+"idBoard": "5d5019f7f5ace62e9677cb44", "idOrganization": 
+"60ccc920aaa74d662bacf891", "limits": {"cards": {"openPerList": {"disableAt": 
+5000, "status": "ok", "warnAt": 4000}, "totalPerList": {"disableAt": 1000000, 
+"status": "ok", "warnAt": 800000}}}, "name": "A fazer", "nodeId": 
+"ari☁trello::list/workspace/60ccc920aaa74d662bacf891/5d5019f7f5ace62e9677cb45", 
+"pos": 16384, "softLimit": null, "subscribed": false, "type": null}, {"closed": 
+false, "color": null, "creationMethod": "automatic", "datasource": {"filter": 
+false}, "id": "5d5019f7f5ace62e9677cb46", "idBoard": "5d5019f7f5ace62e9677cb44",
+"idOrganization": "60ccc920aaa74d662bacf891", "limits": {"cards": 
+{"openPerList": {"disableAt": 5000, "status": "ok", "warnAt": 4000}, 
+"totalPerList": {"disableAt": 1000000, "status": "ok", "warnAt": 800000}}}, 
+"name": "Em andamento", "nodeId": 
+"ari☁trello::list/workspace/60ccc920aaa74d662bacf891/5d5019f7f5ace62e9677cb46", 
+"pos": 32768, "softLimit": null, "subscribed": false, "type": null}, {"closed": 
+false, "color": null, "creationMethod": null, "datasource": {"filter": false}, 
+"id": "5d501e6eb2fe710496defc21", "idBoard": "5d5019f7f5ace62e9677cb44", 
+"idOrganization": "60ccc920aaa74d662bacf891", "limits": {"cards": 
+{"openPerList": {"disableAt": 5000, "status": "ok", "warnAt": 4000}, 
+"totalPerList": {"disableAt": 1000000, "status": "ok", "warnAt": 800000}}}, 
+"name": "Impedimento", "nodeId": 
+"ari☁trello::list/workspace/60ccc920aaa74d662bacf891/5d501e6eb2fe710496defc21", 
+"pos": 40960, "softLimit": null, "subscribed": false, "type": null}, {"closed": 
+false, "color": null, "creationMethod": null, "datasource": {"filter": false}, 
+"id": "5d501ed1711bab60723071a0", "idBoard": "5d5019f7f5ace62e9677cb44", 
+"idOrganization": "60ccc920aaa74d662bacf891", "limits": {"cards": 
+{"openPerList": {"disableAt": 5000, "status": "ok", "warnAt": 4000}, 
+"totalPerList": {"disableAt": 1000000, "status": "ok", "warnAt": 800000}}}, 
+"name": "concluido em atraso", "nodeId": 
+"ari☁trello::list/workspace/60ccc920aaa74d662bacf891/5d501ed1711bab60723071a0", 
+"pos": 45056, "softLimit": null, "subscribed": false, "type": null}, {"closed": 
+false, "color": null, "creationMethod": "automatic", "datasource": {"filter": 
+false}, "id": "5d5019f7f5ace62e9677cb47", "idBoard": "5d5019f7f5ace62e9677cb44",
+"idOrganization": "60ccc920aaa74d662bacf891", "limits": {"cards": 
+{"openPerList": {"disableAt": 5000, "status": "ok", "warnAt": 4000}, 
+"totalPerList": {"disableAt": 1000000, "status": "ok", "warnAt": 800000}}}, 
+"name": "Conclu\u00eddo", "nodeId": 
+"ari☁trello::list/workspace/60ccc920aaa74d662bacf891/5d5019f7f5ace62e9677cb47", 
+"pos": 49152, "softLimit": null, "subscribed": false, "type": null}]}, "error": 
+null, "successfull": true, "successful": true, "logId": "log_rSbpJjSSoBox"}
