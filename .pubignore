@@ -1,0 +1,14 @@
+# Local development files
+/prommpts/
+/actions_trello.txt
+/actions_trello_full.txt
+/board_lists.json
+/boards_raw.json
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# Assets used in README (kept in package for now, but listed for clarity)
+# /doc/screenshots/ 
