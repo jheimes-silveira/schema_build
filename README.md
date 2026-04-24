@@ -7,6 +7,22 @@
 
 ---
 
+## ✨ Visual Showcase
+
+<p align="center">
+  <img src="doc/screenshots/editor_showcase.png" width="800" alt="Schema Editor Showcase">
+</p>
+
+### 🎨 Build, Edit, and Deploy in Real-Time
+The **Schema Editor** provides a powerful drag-and-drop experience to compose your mobile application layouts.
+
+| **Dynamic Editing** | **Real-Time Reactivity** |
+| :---: | :---: |
+| <img src="doc/screenshots/component_editing.png" width="400" alt="Component Editing"> | <img src="doc/screenshots/reactivity_demo.png" width="400" alt="Reactivity Demo"> |
+| *Visual configuration of business components.* | *Push-based state updates with zero latency.* |
+
+---
+
 ## 🎯 Objective
 
 The primary goal of **Schema Build** is to decouple the UI structure from the application binary. By allowing layouts and component data to be managed externally, teams can:
@@ -144,9 +160,10 @@ class DynamicScreen extends StatelessWidget {
 
 ## 🇧🇷 Português (Resumo)
 
-**Schema Build** é um motor de Server-Driven UI e editor visual para Flutter. Ele permite criar layouts dinâmicos via JSON com um sistema de estado reativo baseado em **Push**.
+**Schema Build** é um motor de Server-Driven UI e editor visual profissional para Flutter. Ele permite criar layouts dinâmicos via JSON com um sistema de estado reativo baseado em **Push**.
 
-- **Editor Visual**: Arraste e solte componentes para criar schemas.
+- **Showcase Visual**: Interface drag-and-drop para composição de telas em tempo real.
+- **Editor de Propriedades**: Configure componentes de negócio visualmente sem tocar no código.
 - **Performance**: Atualizações granulares e controle de redundância (Zero-Rebuild).
 - **Extensível**: Registre seus próprios componentes de negócio facilmente.
 
