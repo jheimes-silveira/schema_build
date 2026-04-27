@@ -21,10 +21,7 @@ class SchemaDataController extends ChangeNotifier {
     // Merge existing node data with the new data
     final existingNodeData =
         _dataOverrides[nodeId] as Map<String, dynamic>? ?? {};
-    _dataOverrides[nodeId] = {
-      ...existingNodeData,
-      ...newData,
-    };
+    _dataOverrides[nodeId] = {...existingNodeData, ...newData};
 
     notifyListeners();
   }
@@ -91,9 +88,7 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
               // 1. Simulation Panel (App Logic) - Sidebar
               SizedBox(
                 width: 400,
-                child: SingleChildScrollView(
-                  child: _buildAppLogicPanel(),
-                ),
+                child: SingleChildScrollView(child: _buildAppLogicPanel()),
               ),
 
               const VerticalDivider(width: 1),
@@ -118,9 +113,12 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
 
                               setState(() {
                                 _eventLog.insert(
-                                    0,
-                                    '${DateTime.now().toString().split(' ').last.split('.').first} | $eventMsg');
-                                if (_eventLog.length > 5) _eventLog.removeLast();
+                                  0,
+                                  '${DateTime.now().toString().split(' ').last.split('.').first} | $eventMsg',
+                                );
+                                if (_eventLog.length > 5) {
+                                  _eventLog.removeLast();
+                                }
                               });
 
                               if (node.type == 'counter') {
@@ -128,13 +126,17 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                                     ? (data['current'] as int? ?? 0)
                                     : 0;
                                 if (action == 'increment') {
-                                  _controller.updateNodeData(
-                                      node.id, {'count': current + 1});
+                                  _controller.updateNodeData(node.id, {
+                                    'count': current + 1,
+                                  });
                                 } else if (action == 'decrement') {
-                                  _controller.updateNodeData(
-                                      node.id, {'count': current - 1});
+                                  _controller.updateNodeData(node.id, {
+                                    'count': current - 1,
+                                  });
                                 } else if (action == 'reset_to_zero') {
-                                  _controller.updateNodeData(node.id, {'count': 0});
+                                  _controller.updateNodeData(node.id, {
+                                    'count': 0,
+                                  });
                                 }
                               }
                             },
@@ -199,7 +201,10 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
           const Text(
             '1. REACTIVITY BY OVERRIDES (GLOBAL STATE)',
             style: TextStyle(
-                fontWeight: FontWeight.bold, fontSize: 10, color: Colors.blueGrey),
+              fontWeight: FontWeight.bold,
+              fontSize: 10,
+              color: Colors.blueGrey,
+            ),
           ),
           const SizedBox(height: 8),
           Wrap(
@@ -211,8 +216,8 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                 icon: Icons.person,
                 onPressed: () {
                   _controller.updateNodeData('user_greeting', {
-                    'content': 'Hello, Premium Member! Special for you:',
-                    'color': '#FFD700',
+                    'title': 'Hello, Premium Member! Special for you:',
+                    'titleColor': '#FFD700',
                   });
                 },
               ),
@@ -221,7 +226,7 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                 icon: Icons.flash_on,
                 onPressed: () {
                   _controller.updateNodeData('btn_cart', {
-                    'text': 'BUY NOW (50% OFF)',
+                    'label': 'BUY NOW (50% OFF)',
                     'backgroundColor': '#FF5252',
                   });
                 },
@@ -231,11 +236,9 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                 icon: Icons.palette,
                 onPressed: () {
                   _controller.updateNodeData('welcome_text', {
-                    'color': '#FF9C27B0',
+                    'titleColor': '#FF9C27B0',
                   });
-                  _controller.updateNodeData('banner_home', {
-                    'height': 120.0,
-                  });
+                  _controller.updateNodeData('banner_home', {'height': 120.0});
                 },
               ),
             ],
@@ -247,7 +250,10 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
           const Text(
             '2. REACTIVITY BY TRIGGERS (GRANULAR EVENTS)',
             style: TextStyle(
-                fontWeight: FontWeight.bold, fontSize: 10, color: Colors.blue),
+              fontWeight: FontWeight.bold,
+              fontSize: 10,
+              color: Colors.blue,
+            ),
           ),
           const SizedBox(height: 8),
           Wrap(
@@ -303,9 +309,10 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
           const Text(
             '3. BIDIRECTIONAL COMMUNICATION (ACTIONS & EVENTS)',
             style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 10,
-                color: Colors.deepPurple),
+              fontWeight: FontWeight.bold,
+              fontSize: 10,
+              color: Colors.deepPurple,
+            ),
           ),
           const SizedBox(height: 8),
           Wrap(
@@ -317,8 +324,11 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                 icon: Icons.input,
                 onPressed: () async {
                   debugPrint('[Simulation] Action: Get Input Value');
-                  final value = await SchemaComponentController.dispatchAction<
-                      String>('demo_input', 'get_value');
+                  final value =
+                      await SchemaComponentController.dispatchAction<String>(
+                        'demo_input',
+                        'get_value',
+                      );
                   if (mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(content: Text('Input Value: "$value"')),
@@ -332,7 +342,9 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                 onPressed: () {
                   debugPrint('[Simulation] Action: Clear Input');
                   SchemaComponentController.dispatchAction(
-                      'demo_input', 'clear');
+                    'demo_input',
+                    'clear',
+                  );
                 },
               ),
               _buildActionChip(
@@ -340,8 +352,11 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                 icon: Icons.card_membership,
                 onPressed: () async {
                   debugPrint('[Simulation] Action: Get Card Title');
-                  final title = await SchemaComponentController.dispatchAction<
-                      String>('card_welcome', 'get_title');
+                  final title =
+                      await SchemaComponentController.dispatchAction<String>(
+                        'card_welcome',
+                        'get_title',
+                      );
                   if (mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(content: Text('Card Title: "$title"')),
@@ -354,8 +369,11 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
                 icon: Icons.restart_alt,
                 onPressed: () {
                   debugPrint('[Simulation] Action: Reset Counters (Batch)');
-                  SchemaComponentController.dispatchAction('', 'reset',
-                      targetComponentType: 'counter');
+                  SchemaComponentController.dispatchAction(
+                    '',
+                    'reset',
+                    targetComponentType: 'counter',
+                  );
                 },
               ),
             ],
@@ -372,12 +390,19 @@ class _DynamicControllerPageState extends State<DynamicControllerPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text('Latest Schema Events:',
-                      style:
-                          TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
-                  ..._eventLog.map((log) => Text(log,
+                  const Text(
+                    'Latest Schema Events:',
+                    style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold),
+                  ),
+                  ..._eventLog.map(
+                    (log) => Text(
+                      log,
                       style: const TextStyle(
-                          fontSize: 9, fontFamily: 'monospace'))),
+                        fontSize: 9,
+                        fontFamily: 'monospace',
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),

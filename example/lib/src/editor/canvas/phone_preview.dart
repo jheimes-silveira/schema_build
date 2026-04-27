@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:schema_build/schema_build.dart';
+import '../schema_editor_state.dart';
 import 'canvas_node_renderer.dart';
 
 /// A phone-shaped preview that renders the current schema configuration.
@@ -13,57 +12,67 @@ class PhonePreview extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListenableBuilder(
-      listenable: state,
-      builder: (context, _) {
-        return LayoutBuilder(
-          builder: (context, constraints) {
-            final phoneHeight = constraints.maxHeight * 0.9;
-            final phoneWidth = phoneHeight * 0.48; // Proporção aproximada de um smartphone moderno
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final phoneHeight = constraints.maxHeight * 0.9;
+        final phoneWidth =
+            phoneHeight * 0.48; // Proporção aproximada de um smartphone moderno
 
-            return Container(
-              width: phoneWidth,
-              height: phoneHeight,
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(32),
-                border: Border.all(color: Colors.grey.shade800, width: 6),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withValues(alpha: 0.15),
-                    blurRadius: 24,
-                    offset: const Offset(0, 8),
-                  ),
-                  BoxShadow(
-                    color: Colors.black.withValues(alpha: 0.05),
-                    blurRadius: 8,
-                    offset: const Offset(0, 2),
-                  ),
-                ],
+        return Container(
+          width: phoneWidth,
+          height: phoneHeight,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(32),
+            border: Border.all(color: Colors.grey.shade800, width: 6),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.15),
+                blurRadius: 24,
+                offset: const Offset(0, 8),
               ),
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(26),
-                child: Column(
-                  children: [
-                    // Status bar
-                    _StatusBar(),
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.05),
+                blurRadius: 8,
+                offset: const Offset(0, 2),
+              ),
+            ],
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(26),
+            child: Column(
+              children: [
+                // Status bar
+                _StatusBar(),
 
-                    // Content area
-                    Expanded(
-                      child: GestureDetector(
-                        onTap: () => state.clearSelection(),
-                        behavior: HitTestBehavior.translucent,
-                        child: Container(
-                          color: state.config.backgroundColor,
-                          child: _buildContent(),
+                // Content area
+                Expanded(
+                  child: GestureDetector(
+                    onTap: () => state.clearSelection(),
+                    behavior: HitTestBehavior.translucent,
+                    child: Stack(
+                      children: [
+                        // Background - Only rebuilds on state.notifyListeners (e.g. config changes)
+                        Positioned.fill(
+                          child: ListenableBuilder(
+                            listenable: state,
+                            builder: (context, _) => Container(
+                              color: state.config.backgroundColor,
+                            ),
+                          ),
                         ),
-                      ),
+                        // Content - Only rebuilds when the structure actually changes
+                        ListenableBuilder(
+                          listenable: state.structureChanged,
+                          builder: (context, _) => _buildContent(),
+                        ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
-              ),
-            );
-          },
+              ],
+            ),
+          ),
         );
       },
     );
@@ -77,6 +86,7 @@ class PhonePreview extends StatelessWidget {
     }
 
     return ReorderableListView(
+      key: const ValueKey('phone_preview_reorderable_list'),
       padding: const EdgeInsets.all(8),
       buildDefaultDragHandles: false,
       onReorder: (oldIndex, newIndex) {
@@ -86,10 +96,18 @@ class PhonePreview extends StatelessWidget {
         return AnimatedBuilder(
           animation: animation,
           builder: (context, _) {
-            return Material(
-              color: Colors.transparent,
-              elevation: 0,
-              child: child,
+            final double animValue = Curves.easeInOut.transform(animation.value);
+            final double elevation = Tween<double>(begin: 0, end: 6).transform(animValue);
+            final double scale = Tween<double>(begin: 1, end: 1.02).transform(animValue);
+
+            return Transform.scale(
+              scale: scale,
+              child: Material(
+                color: Colors.transparent,
+                elevation: elevation,
+                shadowColor: Colors.black.withValues(alpha: 0.2),
+                child: child,
+              ),
             );
           },
         );
@@ -97,13 +115,16 @@ class PhonePreview extends StatelessWidget {
       children: nodes
           .asMap()
           .entries
-          .map((entry) => Padding(
+          .map((entry) => ReorderableDragStartListener(
                 key: ValueKey(entry.value.id),
-                padding: const EdgeInsets.only(bottom: 4),
-                child: CanvasNodeRenderer(
-                  node: entry.value,
-                  state: state,
-                  index: entry.key,
+                index: entry.key,
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 4),
+                  child: CanvasNodeRenderer(
+                    node: entry.value,
+                    state: state,
+                    index: null, // Index handled here
+                  ),
                 ),
               ))
           .toList(),

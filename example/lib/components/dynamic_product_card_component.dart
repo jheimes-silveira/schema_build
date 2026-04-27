@@ -34,7 +34,7 @@ class DynamicProductCardComponent extends ComponentDefinition {
   }
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
     final Map<String, dynamic> info = data is Map<String, dynamic> ? data : {};
     final title = info['title'] ?? 'Carregando...';
     final price = info['price'] as double? ?? 0.0;

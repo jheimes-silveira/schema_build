@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import '../../../schema_build.dart';
+import 'schema_editor_state.dart';
 import 'sidebar/properties_panel.dart';
 import 'sidebar/widget_palette.dart';
 import 'canvas/canvas_drop_zone.dart';

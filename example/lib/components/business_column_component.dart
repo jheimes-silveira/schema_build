@@ -15,7 +15,7 @@ class BusinessColumnComponent extends ComponentDefinition {
   bool get acceptsChildren => true;
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
     final p = data is Map<String, dynamic> ? data : <String, dynamic>{};
     final spacing = (p['spacing'] as num?)?.toDouble() ?? 16.0;
     

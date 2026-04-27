@@ -13,7 +13,7 @@ class MockTextComponent extends ComponentDefinition {
   @override
   bool get acceptsChildren => false;
   @override
-  ComponentBuilder get builder => (context, children, {data}) => Text(data?.toString() ?? '');
+  ComponentBuilder get builder => (context, node, children, {data}) => Text(data?.toString() ?? '');
 }
 
 class MockColumnComponent extends ComponentDefinition {
@@ -26,7 +26,7 @@ class MockColumnComponent extends ComponentDefinition {
   @override
   bool get acceptsChildren => true;
   @override
-  ComponentBuilder get builder => (context, children, {data}) => Column(children: children);
+  ComponentBuilder get builder => (context, node, children, {data}) => Column(children: children);
 }
 
 void main() {
@@ -62,59 +62,4 @@ void main() {
     });
   });
 
-  group('SchemaEditorState', () {
-    test('should add widget to canvas', () {
-      final state = SchemaEditorState();
-      state.addWidgetToCanvas('text');
-      expect(state.rootNodes, isNotEmpty);
-      expect(state.rootNodes.last.type, 'text');
-    });
-
-    test('should add widget to parent', () {
-      final state = SchemaEditorState();
-      state.addWidgetToCanvas('column');
-      final parentId = state.rootNodes.first.id;
-
-      state.addWidgetToParent(parentId, 'text');
-      expect(state.rootNodes.first.children, isNotEmpty);
-      expect(state.rootNodes.first.children.first.type, 'text');
-    });
-
-    test('should select and clear widget', () {
-      final state = SchemaEditorState();
-      state.addWidgetToCanvas('text');
-      final id = state.rootNodes.first.id;
-
-      state.selectWidget(id);
-      expect(state.selectedWidgetId, id);
-
-      state.clearSelection();
-      expect(state.selectedWidgetId, isNull);
-    });
-
-    test('should remove widget', () {
-      final state = SchemaEditorState();
-      state.addWidgetToCanvas('text');
-      final id = state.rootNodes.first.id;
-
-      state.removeWidget(id);
-      expect(state.rootNodes, isEmpty);
-    });
-  });
-
-  group('SchemaSerializer', () {
-    test('should generate valid schema JSON with widget tree', () {
-      final state = SchemaEditorState();
-      state.addWidgetToCanvas('column');
-      final parentId = state.rootNodes.first.id;
-      state.addWidgetToParent(parentId, 'text');
-
-      final schema = SchemaSerializer.toJson(state);
-
-      expect(schema['rootNodes'], isNotNull);
-      expect(schema['rootNodes'][0]['type'], 'column');
-      expect(schema['rootNodes'][0]['children'], isList);
-      expect(schema['rootNodes'][0]['children'][0]['type'], 'text');
-    });
-  });
 }

@@ -21,7 +21,7 @@ class InfoListComponent extends ComponentDefinition {
   }
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
         List<dynamic> items = [];
         
         if (data is List) {

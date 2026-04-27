@@ -15,17 +15,19 @@ class InputComponent extends ComponentDefinition {
   @override
   bool get acceptsChildren => false;
 
+  @override
+  Map<String, dynamic> get properties => {'label': 'Type something...'};
+
   // Em um cenário real, usaríamos um gerenciador de estado para persistir isso
   static final Map<String, TextEditingController> _controllers = {};
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
     final params = data as Map<String, dynamic>? ?? {};
     final label = params['label'] as String? ?? 'Label';
     
     // Obtém ou cria o controller para este nó específico
-    // ignore: avoid_dynamic_calls
-    final nodeId = (context.widget as dynamic).node.id as String;
+    final nodeId = node.id;
     final controller = _controllers.putIfAbsent(nodeId, () => TextEditingController());
 
     return Padding(

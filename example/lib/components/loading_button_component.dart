@@ -21,7 +21,7 @@ class LoadingButtonComponent extends ComponentDefinition {
   }
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
         final p = data is Map<String, dynamic> ? data : <String, dynamic>{};
         final isLoading = p['isLoading'] as bool? ?? false;
         
@@ -37,6 +37,10 @@ class LoadingButtonComponent extends ComponentDefinition {
           label: Text(p['label'] as String? ?? 'Confirmar'),
           style: ElevatedButton.styleFrom(
             minimumSize: const Size(double.infinity, 48),
+            backgroundColor: p['backgroundColor'] != null
+                ? Color(int.parse(p['backgroundColor'].toString().replaceAll('#', '0xFF')))
+                : null,
+            foregroundColor: p['backgroundColor'] != null ? Colors.white : null,
           ),
         );
       };

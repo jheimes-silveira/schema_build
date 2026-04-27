@@ -14,7 +14,7 @@ class MockActionComponent extends ComponentDefinition {
   @override
   bool get acceptsChildren => false;
   @override
-  ComponentBuilder get builder => (context, children, {data}) => const SizedBox();
+  ComponentBuilder get builder => (context, node, children, {data}) => const SizedBox();
   @override
   FutureOr<Object?> onReceiveAction(context, node, action, data) {
     if (action == 'test_echo') return data;
@@ -34,9 +34,7 @@ class MockEventComponent extends ComponentDefinition {
   @override
   bool get acceptsChildren => false;
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
-    // ignore: avoid_dynamic_calls
-    final node = (context.widget as dynamic).node as WidgetNode;
+  ComponentBuilder get builder => (context, node, children, {data}) {
     return ElevatedButton(
       onPressed: () {
         SchemaActionScope.of(context).emit(node, 'event_triggered', {'value': 42});
@@ -56,7 +54,7 @@ class MockColumnComponent extends ComponentDefinition {
   @override
   bool get acceptsChildren => true;
   @override
-  ComponentBuilder get builder => (context, children, {data}) => Column(children: children);
+  ComponentBuilder get builder => (context, node, children, {data}) => Column(children: children);
 }
 
 class BatchTestComponent extends ComponentDefinition {
@@ -71,7 +69,7 @@ class BatchTestComponent extends ComponentDefinition {
   @override
   bool get acceptsChildren => false;
   @override
-  ComponentBuilder get builder => (context, children, {data}) => const SizedBox();
+  ComponentBuilder get builder => (context, node, children, {data}) => const SizedBox();
   @override
   FutureOr<Object?> onReceiveAction(context, node, action, data) {
     onAction(action);

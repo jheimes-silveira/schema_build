@@ -1,3 +1,8 @@
+## 0.1.1
+
+* **Component Properties**: Added `properties` field to `ComponentDefinition` to allow default values for new nodes.
+* **Node Initialization**: `WidgetNode` now automatically inherits default properties from its `ComponentDefinition`.
+
 ## 0.1.0
 
 * Initial release of `schema_build`.

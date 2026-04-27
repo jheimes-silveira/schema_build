@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:schema_build/schema_build.dart';
+import '../schema_editor_state.dart';
 
 /// Right sidebar panel for editing properties of the selected widget.
 class PropertiesPanel extends StatelessWidget {

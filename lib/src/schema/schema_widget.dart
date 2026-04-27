@@ -44,6 +44,7 @@ class SchemaWidget extends StatelessWidget {
         builder: (context, effectiveData) {
           return definition.builder(
             context,
+            node,
             node.children
                 .map(
                   (child) => SchemaWidget(

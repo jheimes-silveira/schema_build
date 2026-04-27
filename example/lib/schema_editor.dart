@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-
 import 'dynamic_controller_page.dart';
 import 'dynamic_home_page.dart';
-import 'package:schema_build/schema_build.dart';
 import 'exemple_preview_components.dart';
 import 'schema_data.dart';
+import 'src/editor/schema_editor.dart';
 
 class SchemaEditorPage extends StatelessWidget {
   const SchemaEditorPage({super.key});

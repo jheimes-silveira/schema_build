@@ -5,6 +5,7 @@ import '../models/widget_node.dart';
 /// Signature for the function that builds a widget from data and children.
 typedef ComponentBuilder = Widget Function(
   BuildContext context,
+  WidgetNode node,
   List<Widget> children, {
   Object? data,
 });
@@ -25,6 +26,11 @@ abstract class ComponentDefinition {
 
   /// The actual builder function that returns the Flutter widget.
   ComponentBuilder get builder;
+
+  /// Default properties for this component type.
+  ///
+  /// These properties are copied to the [WidgetNode] when it's created.
+  Map<String, dynamic>? get properties => null;
 
   /// Initializes the component.
   ///

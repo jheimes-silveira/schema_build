@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../models/schema_config.dart';
-import '../models/widget_node.dart';
-import '../schema/schema_manager.dart';
+import 'package:schema_build/schema_build.dart';
+import 'package:uuid/uuid.dart';
 
 /// Central state manager for the Schema Editor.
 ///
@@ -16,6 +14,10 @@ class SchemaEditorState extends ChangeNotifier {
         _rootNodes = rootNodes ?? [];
 
   SchemaConfig _config;
+
+  // Notifiers para atualizações granulares
+  final ChangeNotifier structureChanged = ChangeNotifier();
+  final ValueNotifier<String?> selectionChanged = ValueNotifier<String?>(null);
 
   // Widget tree state
   final List<WidgetNode> _rootNodes;
@@ -62,10 +64,14 @@ class SchemaEditorState extends ChangeNotifier {
     if (definition == null) return;
 
     final node = WidgetNode(
-      id: 'wn_${DateTime.now().millisecondsSinceEpoch}_${_rootNodes.length}',
+      id: const Uuid().v4(),
       type: type,
+      properties: definition.properties != null
+          ? Map<String, dynamic>.from(definition.properties!)
+          : null,
     );
     _rootNodes.add(node);
+    structureChanged.notifyListeners();
     notifyListeners();
   }
 
@@ -78,11 +84,15 @@ class SchemaEditorState extends ChangeNotifier {
     if (definition == null) return;
 
     final node = WidgetNode(
-      id: 'wn_${DateTime.now().millisecondsSinceEpoch}_${parent.children.length}',
+      id: const Uuid().v4(),
       type: type,
       parentId: parentId,
+      properties: definition.properties != null
+          ? Map<String, dynamic>.from(definition.properties!)
+          : null,
     );
     parent.children.add(node);
+    structureChanged.notifyListeners();
     notifyListeners();
   }
 
@@ -91,7 +101,9 @@ class SchemaEditorState extends ChangeNotifier {
     if (_removeFromList(_rootNodes, widgetId)) {
       if (_selectedWidgetId == widgetId) {
         _selectedWidgetId = null;
+        selectionChanged.value = null;
       }
+      structureChanged.notifyListeners();
       notifyListeners();
     }
   }
@@ -100,14 +112,16 @@ class SchemaEditorState extends ChangeNotifier {
   void selectWidget(String? widgetId) {
     if (_selectedWidgetId == widgetId) return;
     _selectedWidgetId = widgetId;
-    notifyListeners();
+    selectionChanged.value = widgetId;
+    // Note: Não chamamos notifyListeners() aqui para evitar rebuild da lista inteira
   }
 
   /// Clears the current widget selection.
   void clearSelection() {
     if (_selectedWidgetId == null) return;
     _selectedWidgetId = null;
-    notifyListeners();
+    selectionChanged.value = null;
+    // Note: Não chamamos notifyListeners() aqui para evitar rebuild da lista inteira
   }
 
   /// Moves a widget to a new position, optionally under a new parent.
@@ -136,9 +150,24 @@ class SchemaEditorState extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Updates the properties of a widget.
+  void updateWidgetProperties(String widgetId, Map<String, dynamic> properties) {
+    final node = _findNode(widgetId, _rootNodes);
+    if (node == null) return;
+
+    node.properties.addAll(properties);
+    notifyListeners();
+  }
+
   /// Reorders widgets within the same parent or at the root level.
   void reorderWidgets(int oldIndex, int newIndex, {String? parentId}) {
-    if (oldIndex < newIndex) newIndex -= 1;
+    debugPrint('REORDER: old=$oldIndex, new=$newIndex, parent=$parentId');
+    // Ajuste padrão do ReorderableListView
+    if (oldIndex < newIndex) {
+      newIndex -= 1;
+    }
+    
+    if (oldIndex == newIndex) return;
 
     List<WidgetNode> targetList;
     if (parentId == null) {
@@ -153,6 +182,9 @@ class SchemaEditorState extends ChangeNotifier {
       final node = targetList.removeAt(oldIndex);
       final clampedIndex = newIndex.clamp(0, targetList.length);
       targetList.insert(clampedIndex, node);
+      
+      // Importante: notifyListeners disparado após a mutação completa
+      structureChanged.notifyListeners();
       notifyListeners();
     }
   }

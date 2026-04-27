@@ -8,15 +8,18 @@ class WidgetNode {
   WidgetNode({
     required this.id,
     required this.type,
+    Map<String, dynamic>? properties,
     List<WidgetNode>? children,
     this.parentId,
-  }) : children = children ?? [];
+  })  : properties = properties ?? {},
+        children = children ?? [];
 
   final String id;
 
   /// The unique type of the component (e.g., 'container', 'text').
   final String type;
 
+  final Map<String, dynamic> properties;
   final List<WidgetNode> children;
   final String? parentId;
 
@@ -30,12 +33,14 @@ class WidgetNode {
   WidgetNode copyWith({
     String? id,
     String? type,
+    Map<String, dynamic>? properties,
     List<WidgetNode>? children,
     String? parentId,
   }) {
     return WidgetNode(
       id: id ?? this.id,
       type: type ?? this.type,
+      properties: properties ?? Map.from(this.properties),
       children: children ?? this.children.map((c) => c.copyWith()).toList(),
       parentId: parentId ?? this.parentId,
     );
@@ -45,6 +50,7 @@ class WidgetNode {
     return {
       'id': id,
       'type': type,
+      'properties': properties,
       'children': children.map((c) => c.toJson()).toList(),
       if (parentId != null) 'parentId': parentId,
     };
@@ -54,6 +60,7 @@ class WidgetNode {
     return WidgetNode(
       id: json['id'] as String,
       type: json['type'] as String,
+      properties: json['properties'] as Map<String, dynamic>? ?? {},
       children: (json['children'] as List<dynamic>?)
               ?.map((c) => WidgetNode.fromJson(c as Map<String, dynamic>))
               .toList() ??

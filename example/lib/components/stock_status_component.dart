@@ -30,7 +30,7 @@ class StockStatusComponent extends ComponentDefinition {
   }
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
     final Map<String, dynamic> info = data is Map<String, dynamic> ? data : {};
     final sku = info['sku'] ?? 'Carregando...';
     final stock = info['stock'] as int?;

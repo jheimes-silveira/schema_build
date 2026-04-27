@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:super_drag_and_drop/super_drag_and_drop.dart';
-
 import 'package:schema_build/schema_build.dart';
+import '../schema_editor_state.dart';
 
 /// Renderiza recursivamente uma árvore [WidgetNode] no canvas.
 ///
@@ -21,51 +21,69 @@ class CanvasNodeRenderer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListenableBuilder(
-      listenable: state,
-      builder: (context, _) {
-        final isSelected = state.selectedWidgetId == node.id;
-        // ignore: unused_local_variable
-        final definition = Schemas.manager.getDefinition(node.type);
+    final definition = Schemas.manager.getDefinition(node.type);
+    final acceptsChildren = definition?.acceptsChildren ?? false;
 
-        Widget rendered = _renderNode(context);
+    // Renderiza o widget base fora do ListenableBuilder para evitar reconstrução recursiva
+    // da árvore inteira quando apenas a seleção muda ou um item é reordenado.
+    final Widget renderedWidget = _renderNode(context);
 
-        // Envolve com borda de seleção
-        rendered = GestureDetector(
-          onTap: () => state.selectWidget(node.id),
-          child: AnimatedContainer(
-            duration: const Duration(milliseconds: 150),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(4),
-              border: Border.all(
-                color: isSelected ? const Color(0xFF2196F3) : Colors.transparent,
-                width: isSelected ? 2 : 1,
+    // Envolve o widget com o feedback de seleção de forma estável
+    Widget content = Container(
+      margin: const EdgeInsets.symmetric(vertical: 2),
+      child: GestureDetector(
+        behavior: HitTestBehavior.translucent,
+        onTap: () {
+          if (state.selectedWidgetId == node.id) {
+            state.clearSelection();
+          } else {
+            state.selectWidget(node.id);
+          }
+        },
+        child: ValueListenableBuilder<String?>(
+          valueListenable: state.selectionChanged,
+          builder: (context, selectedId, _) {
+            final isSelected = selectedId == node.id;
+
+            return AnimatedContainer(
+              duration: const Duration(milliseconds: 150),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(
+                  color:
+                      isSelected ? const Color(0xFF2196F3) : Colors.transparent,
+                  width: isSelected ? 2 : 1,
+                ),
+                boxShadow: isSelected
+                    ? [
+                        BoxShadow(
+                          color: const Color(0xFF2196F3).withValues(alpha: 0.1),
+                          blurRadius: 8,
+                          offset: const Offset(0, 2),
+                        )
+                      ]
+                    : null,
               ),
-            ),
-            child: rendered,
-          ),
-        );
-
-        // Se estiver selecionado e possuir um índice, permite arrastar para reordenar
-        if (isSelected && index != null) {
-          rendered = ReorderableDragStartListener(
-            index: index!,
-            child: rendered,
-          );
-        }
-
-        // Se este nó aceita filhos, envolve com DropRegion
-        if (node.canAcceptChildren) {
-          rendered = _NestedDropZone(
-            node: node,
-            state: state,
-            child: rendered,
-          );
-        }
-
-        return rendered;
-      },
+              child: AbsorbPointer(
+                absorbing: !acceptsChildren,
+                child: renderedWidget,
+              ),
+            );
+          },
+        ),
+      ),
     );
+
+    // Se este nó aceita filhos, envolve com DropRegion
+    if (node.canAcceptChildren) {
+      content = _NestedDropZone(
+        node: node,
+        state: state,
+        child: content,
+      );
+    }
+
+    return content;
   }
 
   Widget _renderNode(BuildContext context) {
@@ -90,6 +108,7 @@ class CanvasNodeRenderer extends StatelessWidget {
       builder: (context, effectiveData) {
         return definition.builder(
           context,
+          node,
           children,
           data: effectiveData,
         );
@@ -164,7 +183,7 @@ class _NestedDropZoneState extends State<_NestedDropZone> {
   Widget build(BuildContext context) {
     return DropRegion(
       formats: Formats.standardFormats,
-      hitTestBehavior: HitTestBehavior.opaque,
+      hitTestBehavior: HitTestBehavior.translucent,
       onDropOver: (event) {
         final item = event.session.items.first;
         if (item.localData is Map) {
@@ -207,4 +226,3 @@ class _NestedDropZoneState extends State<_NestedDropZone> {
     );
   }
 }
-

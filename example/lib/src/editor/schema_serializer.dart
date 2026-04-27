@@ -1,6 +1,5 @@
-import '../models/schema_config.dart';
-import '../models/widget_node.dart';
-import '../state/schema_editor_state.dart';
+import 'package:schema_build/schema_build.dart';
+import 'schema_editor_state.dart';
 
 /// Utility class for serializing/deserializing the editor schema.
 class SchemaSerializer {

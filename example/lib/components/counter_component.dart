@@ -15,6 +15,9 @@ class CounterComponent extends ComponentDefinition {
   bool get acceptsChildren => false;
 
   @override
+  Map<String, dynamic> get properties => {'count': 0};
+
+  @override
   Object? onReceiveAction(BuildContext context, WidgetNode node, String action, Object? data) {
     if (action == 'reset') {
       final bus = SchemaActionScope.of(context);
@@ -27,12 +30,9 @@ class CounterComponent extends ComponentDefinition {
   }
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
     final params = data as Map<String, dynamic>? ?? {};
     final currentCount = params['count'] as int? ?? 0;
-    
-    // ignore: avoid_dynamic_calls
-    final node = (context.widget as dynamic).node as WidgetNode;
 
     return Padding(
       padding: const EdgeInsets.all(8.0),

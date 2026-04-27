@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:super_drag_and_drop/super_drag_and_drop.dart';
-
-import 'package:schema_build/schema_build.dart';
+import '../schema_editor_state.dart';
 
 /// Zona de drop que envolve o canvas do preview do telefone.
 ///
@@ -28,7 +27,7 @@ class _CanvasDropZoneState extends State<CanvasDropZone> {
   Widget build(BuildContext context) {
     return DropRegion(
       formats: Formats.standardFormats,
-      hitTestBehavior: HitTestBehavior.opaque,
+      hitTestBehavior: HitTestBehavior.translucent,
       onDropOver: (event) {
         final item = event.session.items.first;
         if (item.localData is Map) {
@@ -87,4 +86,3 @@ class _CanvasDropZoneState extends State<CanvasDropZone> {
     );
   }
 }
-

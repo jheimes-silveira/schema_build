@@ -21,7 +21,7 @@ class MockComponent extends ComponentDefinition {
   }
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
     return Text(data?.toString() ?? 'no data');
   };
 }

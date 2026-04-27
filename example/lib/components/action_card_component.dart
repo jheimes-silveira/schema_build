@@ -32,9 +32,8 @@ class ActionCardComponent extends ComponentDefinition {
   }
 
   @override
-  ComponentBuilder get builder => (context, children, {data}) {
+  ComponentBuilder get builder => (context, node, children, {data}) {
         final p = data is Map<String, dynamic> ? data : <String, dynamic>{};
-        final node = (context.widget as dynamic).node as WidgetNode;
         final bus = SchemaActionScope.of(context);
 
         return Card(
@@ -46,11 +45,11 @@ class ActionCardComponent extends ComponentDefinition {
             children: [
               Image.network(
                 p['imageUrl'] as String? ?? 'https://picsum.photos/400/200',
-                height: 140,
+                height: (p['height'] as num?)?.toDouble() ?? 140,
                 width: double.infinity,
                 fit: BoxFit.cover,
                 errorBuilder: (context, _, stackTrace) => Container(
-                    height: 140,
+                    height: (p['height'] as num?)?.toDouble() ?? 140,
                     color: Colors.grey.shade200,
                     child: const Icon(Icons.broken_image, size: 40, color: Colors.grey)),
               ),
@@ -61,7 +60,13 @@ class ActionCardComponent extends ComponentDefinition {
                   children: [
                     Text(
                       p['title'] as String? ?? 'Título do Card',
-                      style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18,
+                        color: p['titleColor'] != null
+                            ? Color(int.parse(p['titleColor'].toString().replaceAll('#', '0xFF')))
+                            : null,
+                      ),
                     ),
                     const SizedBox(height: 6),
                     Text(

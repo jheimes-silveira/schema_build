@@ -15,6 +15,10 @@ class SchemaRepository {
       "type": "business_column",
       "children": [
         {
+          "id": "user_greeting",
+          "type": "action_card",
+        },
+        {
           "id": "card_welcome",
           "type": "action_card",
         },
@@ -45,7 +49,19 @@ class SchemaRepository {
           "type": "counter",
         },
         {
+          "id": "welcome_text",
+          "type": "action_card",
+        },
+        {
+          "id": "banner_home",
+          "type": "action_card",
+        },
+        {
           "id": "btn_confirm",
+          "type": "loading_button",
+        },
+        {
+          "id": "btn_cart",
           "type": "loading_button",
         }
       ]
@@ -57,35 +73,31 @@ class SchemaRepository {
     await Future.delayed(const Duration(milliseconds: 50));
 
     final db = {
-      "root_page": {
-        "spacing": 20.0
+      "root_page": {"spacing": 20.0},
+      "user_greeting": {
+        "title": "Olá, Usuário!",
+        "subtitle": "Bem-vindo de volta à nossa loja.",
       },
       "card_welcome": {
         "title": "Bem-vindo à Flux Store",
-        "description": "Explore nossos componentes de negócio customizados.",
-        "icon": "storefront"
+        "subtitle": "Explore nossos componentes de negócio customizados.",
+        "imageUrl": "https://picsum.photos/400/200?random=10"
       },
-      "main_inventory_display": {
-        "sku": "FLUX-MAC-BOOK-2024"
+      "main_inventory_display": {"sku": "FLUX-MAC-BOOK-2024"},
+      "product_grid": {"spacing": 12.0},
+      "dynamic_prod_a": {"title": "MacBook Pro M3"},
+      "dynamic_prod_b": {"title": "iPhone 15 Pro"},
+      "demo_input": {"label": "Nome do Cliente"},
+      "demo_counter": {"count": 0},
+      "welcome_text": {
+        "title": "Ofertas do Dia",
+        "subtitle": "Confira as melhores promoções hoje.",
       },
-      "product_grid": {
-        "spacing": 12.0
+      "banner_home": {
+        "imageUrl": "https://picsum.photos/800/200?random=11",
       },
-      "dynamic_prod_a": {
-        "title": "MacBook Pro M3"
-      },
-      "dynamic_prod_b": {
-        "title": "iPhone 15 Pro"
-      },
-      "demo_input": {
-        "label": "Nome do Cliente"
-      },
-      "demo_counter": {
-        "count": 0
-      },
-      "btn_confirm": {
-        "text": "Finalizar Pedido"
-      }
+      "btn_confirm": {"label": "Finalizar Pedido"},
+      "btn_cart": {"label": "Adicionar ao Carrinho"}
     };
 
     return db[id] ?? {};
